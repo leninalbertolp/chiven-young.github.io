@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Welcome to Gravity!"
+title:  "Welcome to Chiven`s page!"
 date:   2016-03-30 19:45:31 +0530
 categories: jekyll update
 ---
