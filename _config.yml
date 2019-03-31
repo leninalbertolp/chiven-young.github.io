@@ -10,7 +10,7 @@ title: Chiven Young
 email: chivenyoung@gmail.com
 description: Be a simple person.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://weibo.com/obeing" # the base hostname & protocol for your site
+url: "https://chiven-young.github.io/" # the base hostname & protocol for your site
 twitter_username: 零策
 github_username:  chiven-young
 paginate: 5
