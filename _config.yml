@@ -10,7 +10,7 @@ nav: # 最佳体验 六个标签 且最好每个标签不超过4中文字
   灵: 'feel.html'
   觉: 'awaken.html'
   标签: '/tags.html'
-  时间线: '/timeline.html'
+# 时间线: '/timeline.html'
   关于博主: '/about.html'
   
 # 友情链接: '/friendLink.html'
@@ -23,12 +23,12 @@ webtitle: 'Bridge'
 bio: '做一个简单的人'
 about: true
 aboutyou: '思考者'
-portraits: '/assets/profile.jpeg' # your portraits image file path
+portraits: '/assets/profile.jpg' # your portraits image file path
 
 # SNS
 SNS: true
 SNS-icon: #['Facebook', 'weibo', 'qq', 'github', 'Dribbble', 'Twitter', 'instagram', 'weixin', 'Codepen']
-  mail: 'chiven@yeah.net'
+#  mail: 'chiven@yeah.net'
 #  weixin: '' # 你的微信二维码存放的地址
 #  qq: '' # 你的qq二维码存放的地址 or http://wpa.qq.com/msgrd?v=3&uin='你的QQ号'&site=qq&menu=yes
   github: 'https://github.com/chiven-young'
@@ -49,7 +49,7 @@ paginatepath: ['page:num']
 
 # since
 footer:
-  since: 2018
+  since: 2019
 
 # Markdown
 markdown: kramdown
