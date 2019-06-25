@@ -4,7 +4,7 @@ title:  "测试文档"
 date:   2018-05-17 14:05:21 +0800
 tags: jekyll update
 color: rgb(255,90,90)
-cover: '/assets/navnav.gif'
+cover: '/assets/pictures/navnav.gif'
 subtitle: '这是测试文档呀'
 ---
 这是一个测试文档

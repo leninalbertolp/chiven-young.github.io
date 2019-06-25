@@ -4,7 +4,7 @@ title: 'Hello Jekyll'
 date: 2017-04-18
 author: Jekyll
 color: rgb(255,210,32)
-cover: '/assets/pictures/003.jpg'
+cover: '/assets/pictures/003.png'
 tags: jekyll
 ---
 
