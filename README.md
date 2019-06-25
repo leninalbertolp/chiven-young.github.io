@@ -1,182 +1,191 @@
-<p align = "center">
-<img src="http://i.imgur.com/JhbQ03z.png"/>
-</p>
+# Sleek
 
----
+[![Gem Version](https://badge.fury.io/rb/jekyll-sleek.svg)](https://badge.fury.io/rb/jekyll-sleek) [![Build Status](https://travis-ci.org/janczizikow/sleek.svg?branch=master)](https://travis-ci.org/janczizikow/sleek) [![license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/janczizikow/sleek)
 
-If there's any issue you are facing in setting up this theme I'm there for you. Just create an issue in this repository (<http://github.com/hemangsk/Gravity>), (<https://help.github.com/articles/creating-an-issue/>) and I'll get back to you asap.
+A modern [Jekyll](https://jekyllrb.com/) theme focused on speed performance & SEO best practices.
 
-![Welcome to Gravity](https://user-images.githubusercontent.com/13018570/27043040-778d80cc-4fb6-11e7-8619-de4be626be67.png)
-<img src="http://i.imgur.com/cPwoX3E.png"/>
-<img src="http://i.imgur.com/3TMoBGj.png"/>
-<img src="http://i.imgur.com/Z6h3uCp.png"/>
-<img src="http://i.imgur.com/bB7IIHr.png"/>
+![Sleek Jekyll Theme](./sleek.jpg)
 
-***
+## Features
 
-# INSTALLATION
+* Compatible with [Github Pages](https://pages.github.com/)
+* Minimal, responsive and speed performance optimized
+* SEO friendly, with help of [Jekyll SEO Plugin](https://github.com/jekyll/jekyll-seo-tag)
+* Easy [Google Tag Manager](https://tagmanager.google.com/) Integration
+* Support for [Disqus](https://disqus.com/) comments
+* Form submissions with [Formspree](#formspree)
 
-### Dependencies
+[Preview Demo](https://janczizikow.github.io/sleek/)
 
-Gravity uses Jekyll and it's built-in SCSS compiler for the associated CSS, so the first thing you'll need is Jekyll itself:
+## Installation
+
+### System Requirements
+
+To use this project, you'll need the following things on your local machine:
+
+#### Jekyll
+
+```shell
+gem install jekyll
+```
+
+#### NodeJS (8 or greater)
+
+Download and open the [NodeJS installer](https://nodejs.org/en/)
+
+#### Gulp CLI (optional, but recommended)
+
+```shell
+npm install --global gulp-cli
+```
+
+### Up & Running
+
+1. [Fork the repo](https://github.com/janczizikow/sleek/fork)
+2. Clone or download the repo into directory of your choice: `git clone https://github.com/your-github-username/sleek.git`
+3. Inside the directory run `bundle install` and `npm install`
+4. If you want to use [gulp.js](https://gulpjs.com/) run `gulp` or `npm start`
+    * if you don't want to use gulp you can run `bundle exec jekyll serve` instead
+
+#### Installing to existing jekyll project
+
+Add this line to your Jekyll site's `Gemfile`:
+
+```ruby
+gem "jekyll-sleek"
+```
+
+And add this line to your Jekyll site's `_config.yml`:
+
+```yaml
+theme: jekyll-sleek
+```
+
+And then execute:
+
+    $ bundle
+
+Or install it yourself as:
+
+    $ gem install jekyll-sleek
+
+## File Structure Overview
 
 ```bash
-$ gem install jekyll
+sleek
+├── _includes	               # theme includes
+├── _js	                       # javascript files (by default jquery will be included with the scripts inside)
+├── _layouts                   # theme layouts (see below for details)
+├── _pages                     # pages folder (empty by default)
+├── _posts                     # blog posts
+├── _sass                      # Sass partials
+├── assets
+|  ├── css	               # minified css files
+|  ├── img                     # images and icons used for the template
+|  └── js		               # bundled and minified files from _js folder
+├── _config.yml                # sample configuration
+├── gulpfile.js                # gulp tasks (tasks autorunner)
+├── index.md                   # sample home page (blog page)
+└── package.json               # gulp tasks
 ```
 
-In case you don't have the `bundler` gem installed already, you can install it as follows:
+## Usage
 
-```bash
-$ gem install bundler
-```
+You can modify the theme by changing the settings in `_config.yml`.
 
-For pagination, Gravity uses the [jekyll-paginate](https://jekyllrb.com/docs/pagination/) gem :
+### Posts
 
-```bash
-$ gem install jekyll-paginate
-```
+Create a new Markdown file such as 2017-01-13-my-post.md in _post folder. Configure YAML Front Matter (stuff between `---`):
 
-***
-
-# USAGE
-
-Once you have the required gems, you can go ahead and clone the
-[Gravity repository](https://github.com/hemangsk/Gravity) or [download](https://github.com/hemangsk/Gravity/archive/master.zip)
-a zip of the master branch.
-
-Run :
-
-```bash
-$ jekyll serve
-```
-
-Jekyll should now be generating your content!
-
-***
-
-# ADDING POSTS
-
-The theme by default ships with starter posts located in `_posts/`. Delete these posts and add your content to the `_posts`
-folder to see them being served up by Jekyll. [This](https://jekyllrb.com/docs/posts/) would be a good guide to getting started on writing posts using Jekyll. We've added a concise guide below:
-
-- Create a .markdown file inside `_posts` folder.
-- Name the file according to the format YY-MM-DD-[short name for your post].
-- `2016-03-30-i-love-design.markdown`
-- Write the *Front Matter* and content in the file.
-
-### FORMAT
-
-```
+```yaml
 ---
-layout: post | default | page
-title: String POST TITLE
-date: Time Stamp
-categories: String | Array of Strings CATEGORY / CATEGORIES
----
-
----
-layout: post
-title: "The One with the Blackout"
-date: 2016-03-30 19:45:31 +0530
-categories: ["life", friends]
+layout: post # needs to be post
+title: Getting Started with Sleek # title of your post
+featured-img: sleek #optional - if you want you can include hero image
 ---
 ```
 
-***
+#### Images
 
-# CREATE PAGES
+In case you want to add a hero image to the post, apart from changing featured-img in YAML, you also need to add the image file to the project. To do so, just upload an image in .jpg format to `_img` folder. The name must before the .jpg file extension has to match with featured-img in YAML. Next, run `gulp img` from command line to generate optimized version of the image and all the thumbnails. You have to restart the jekyll server to see the changes.
 
-- Create a .md file in the root directory.
-- Name the file with the desired page link name.
-  `about.md`
-  `design.md`
-- Write the *Front Matter* and content in the file.
+Sleek uses [Lazy Sizes](https://github.com/aFarkas/lazysizes). Lazy Loader for loading images. Check the link for more info. Lazy Sizes doesnt’t require any configuration and it’s going to be included in your bundled js file.
 
-### FORMAT
+### Pages
 
-```
----
-layout: page
-title: String TITLE OF THE WEBPAGE
-permalink: / String / PERMALINK FOR THE WEBPAGE
-tagline: String OPTIONAL GRAVITY FEATURE : TAGLINE FOR THE PAGE
----
+The home page is located under index.md file. To change the content or design you have to edit the default.html file in `_layouts` folder.
 
----
-layout: page
-title: "Science"
-permalink: /science/
-tagline: "Humanity is overrated."
----
+In order to add a new page, create a new html or markdown file under root directory or inside _pages folder. To add a link in navigation add it in `_config.yml`:
+
+```yaml
+# THEME SETTINGS
+navigation: # Navigation links
+  - {name: 'Home', link: '/'}
+  - {name: 'About', link: '/about'}
+  - {name: 'Contact', link: '/contact'}
 ```
 
-***
+`name` is the text that will be shown and link, well, it's a link.
 
-#### Introducing
+### Site configuration
 
-# ARCHIVE PAGES
+Sleek comes with [`jekyll-seo-tag`](https://github.com/jekyll/jekyll-seo-tag) plugin preinstalled to make sure your website gets the most useful meta tags. See [usage](https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md) to know how to set it up.
 
-#### You can display a list of all the posts corresponding to a particular category on a standalone page using the `ARCHIVE` layout.
+Additionally, in `_config.yml` you can find custom theme settings under `# THEME SETTINGS` comment. Here's a brief overview of those custom settings:
 
-- Create a .md file in the root directory.
-- Name the file. Preferred name will be the name of the category.
-    \*`life.md`
-- Write the *Front Matter* and content in the file.
+- `navigation` - collection of links that will be shown in the header
+- `tagline` - text that will be displayed on the homepage under the heading.
+- `hero_img` - background image of the homepage hero section
 
-### FORMAT
+Other settings usually enable/disable certain feature, and are discussed with the next sections.
 
-```
----
-layout: archive ARCHIVE PAGE LAYOUT
-title: String TITLE OF THE WEBPAGE
-permalink: / String / PERMALINK FOR THE WEBPAGE
-tagline: String TAGLINE FOR THE PAGE
-category: String NAME OF THE CATEGORY OF WHICH THE PAGE WILL SHOW POSTS
----
+### Google Tag Manager
 
----
-layout: archive
-title: "Design"
-permalink: "Design"
-tagline: "It's all about perception"
-category: "design"
----
+To enable Google Tag Manager, add the uncomment the following line in `_config.yml`:
+
+```yaml
+google_tag_manager: GTM-XXXXXXX
 ```
 
-#### DIRECTORY STRUCTURE
+Replace `GTM-XXXXXXX` with your Google Tag Manager Container ID.
 
+**Note** by default GTM tracking snippet will be also included in development environment.
+
+Google Tag Manager was chosen for this project as it's more flexible than Google Analytics, and it can be used to add GA to your site.
+
+### Disqus
+
+To enable Disqus comments, add your [Disqus shortname](https://help.disqus.com/customer/portal/articles/466208) to `_config.yml`:
+
+```yaml
+disqus:
+  shortname: my_disqus_shortname
 ```
-├── css                                         # => Output of the combined SASS files
-│   └── style.scss
-├── _includes                                   # => Contains partials that can be used with your layouts
-│   ├── footer.html
-│   ├── header.html
-│   ├── head.html
-│   ├── icon-github.html
-│   ├── icon-github.svg
-│   ├── icon-twitter.html
-│   └── icon-twitter.svg
-├── _layouts                                    # => Layout related HTML files
-│   ├── archive.html
-│   ├── default.html
-│   ├── page.html
-│   └── post.html
-├── _posts                                      # => posts, dynamic content. Follow the format: YEAR-MONTH-DAY-title.MARKUP
-│   ├── 2016-03-30-design-stories.markdown
-│   ├── 2016-03-30-science0.markdown
-│   ├── 2016-03-30-science.markdown
-│   └── 2016-03-30-welcome-to-jekyll.markdown
-└── _sass                                       # => SASS partials for styling
-|   ├── _base.scss
-|   ├── _layout.scss
-|   └── _syntax-highlighting.scss
-├── about.md
-├── _config.yml                                 # => Configuration options or flags for your site go here
-├── design.md
-├── download.md
-├── feed.xml
-├── index.html
-├── LICENSE.txt                                 # => Licensing information
-├── README.md
-└── science.md
+
+### Formspree
+
+To use [Formspree](https://formspree.io/) with your email address, you need to change the following:
+
+Change `your-email@domain.com` email in `_config.yml`
+
+```yaml
+email: your-email@domain.com
 ```
+
+You can check if it works by simply submitting the form.
+
+If you have a Formspree Gold Account, you can take advantage of using AJAX to submit form. To do so, uncomment last function in `_js/scripts.js` and run `gulp js`. Now the form will be submitted asynchronously, without leaving the page.
+
+## Contributing
+
+Bug reports and pull requests are welcome on GitHub at [https://github.com/janczizikow/sleek](https://github.com/janczizikow/sleek). This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+
+## Development
+
+To set up your environment to develop this theme, run `bundle install` and `npm install`.
+
+The theme is setup just like a normal Jekyll site! Check out [file structure overview](#file-structure-overview) for details. To test the theme, run `gulp` and open your browser at `http://localhost:3000`. This starts a Jekyll server using the theme. Add pages, documents, data, etc. like normal to test the theme's contents. As you make modifications to the theme and to the content, your site will regenerate and you should see the changes in the browser after a refresh, just like normal.
+
+## License
+
+The theme is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
