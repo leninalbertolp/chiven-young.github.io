@@ -23,7 +23,7 @@ webtitle: 'Bridge'
 bio: '做一个简单的人'
 about: true
 aboutyou: '思考者'
-portraits: '/assets/profile.jpg' # your portraits image file path
+portraits: '/assets/profile.jpeg' # your portraits image file path
 
 # SNS
 SNS: true
