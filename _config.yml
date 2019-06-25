@@ -1,25 +1,28 @@
 # Site settings 配置站点
-title: 'Chiven Young'
-description: 'your web description'
+title: 'Bridge'
+description: '留下我活过的证据'
 keywords: 'your web keywords, another keywords'
 url: 'https://chiven-young.github.io' # your host
 
 # nav 中文字符空格：&emsp;
 nav: # 最佳体验 六个标签 且最好每个标签不超过4中文字
   首页: '/'
+  灵: 'art.html'
+  觉: 'art.html'
   标签: '/tags.html'
   时间线: '/timeline.html'
   关于博主: '/about.html'
-  友情链接: '/friendLink.html'
+  
+# 友情链接: '/friendLink.html'
 
 # 博主
 author: true
-name: 'Chiven'
+name: 'Chiven Young'
 NickName: '零策'
 webtitle: 'Bridge'
-bio: 'your awesome bio'
+bio: '做一个简单的人'
 about: true
-aboutyou: 'your introduction'
+aboutyou: '思考者'
 portraits: '/assets/profile.jpeg' # your portraits image file path
 
 # SNS
