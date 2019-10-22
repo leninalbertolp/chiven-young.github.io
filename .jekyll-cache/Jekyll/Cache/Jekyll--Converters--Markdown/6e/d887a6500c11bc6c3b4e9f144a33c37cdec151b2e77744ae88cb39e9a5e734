@@ -1,0 +1,145 @@
+I"�5<p><strong>No uses plantillas gratuitas para Wordpress de Themeforest en tus proyectos reales</strong>.</p>
+
+<p>Tal cual lo acabas de leer, de hacerlo tu sitio estaría <strong>programado a la obsolescencia y expuesto a futuras amenazas</strong>.</p>
+
+<p><strong>Antes de continuar y para evitar controversias</strong> quiero dejar en claro que no tengo nada en contra de <strong>Themeforest</strong> ni de los creadores, ni de los creativos, ni de los desarrolladores que hacen vida en <strong>Envato</strong>, la intención aquí no es desacreditar la plataforma ni las creaciones que allí se ofertan.</p>
+
+<p>Todo lo expuesto aquí es según mi criterio basado en la experiencia de más de 10 años trabajando sobre Wordpress.</p>
+
+<p>El fin único de este post es advertirte sobre los riesgo que pueden o podrían ocasionar el uso de estas plantillas para Wordpress en tu proyecto real, definitivo, en producción etc…</p>
+
+<p>Aclarado el panorama <strong>pongámonos en contexto</strong>.</p>
+
+<h2 id="qué-es-themeforest">¿Qué es Themeforest?</h2>
+
+<p>Themeforest forma parte de <a href="https://envato.com/" target="_blank" rel="noopener norreferer"><strong>Envato</strong></a>, un conglomerado de tiendas en línea que vende activos digitales y en donde puedes <strong>comprar plantillas premium para Wordpress</strong>.</p>
+
+<p>Buscas, eliges, compras y recibes como lo harías en cualquier tienda en línea, así de fácil.</p>
+
+<p>Al realizar tu compra recibes una licencia de uso que te garantiza que el producto contará con soporte, futuras actualizaciones y mejoras según la licencia, <strong>regular o extendida</strong>.</p>
+
+<p>Nada del otro mundo, es lo que es y cómo debe ser.</p>
+
+<h2 id="cómo-se-consiguen-las-plantillas-para-wordpress-gratis-en-themeforest">¿Cómo se consiguen las plantillas para Wordpress gratis en Themeforest?</h2>
+
+<p><strong>Pregunta:</strong></p>
+
+<p>OK, Si Themeforest es una tienda que vende las plantillas ¿<strong>de dónde demonios salen esas plantillas gratuitas</strong>?.</p>
+
+<p><strong>Respuesta:</strong></p>
+
+<p>Hay dos vías para obtener una plantilla para Wordpress de Themeforest gratuitamente.</p>
+
+<p>La primera <strong>de forma legal, cabal y legítima</strong> y es de la que te hablaré aquí.</p>
+
+<p>La segunda es por medio de sitios de descargas gratuitas, warez, nulled etc… Si llevas algún tiempo trabajando con Wordpress estoy seguro que sabes muy bien que sitios son y esta vía es mucho más dañina para tu proyecto que la primera.</p>
+
+<p><img src="https://lh3.googleusercontent.com/sL5s2Hmr6vTERykJpi9hxZcruJ1TdAMOcnZzB3bt9tdy_ktkbhwwchScWWXA8LGduIAAsdC24nbh=s768" alt="Boletín Electrónico de Themeforest" title="Boletín Electrónico de Themeforest" /></p>
+
+<h2 id="la-forma-legal-cabal-y-legítima-de-obtener-una-plantilla-para-wordpress-de-themeforest-gratuitamente">La forma legal, cabal y legítima de obtener una plantilla para Wordpress de Themeforest gratuitamente.</h2>
+
+<p>Cuando te registras en Themeforest a través de Envato también lo haces a sus <strong>Newsletter o boletines electrónicos</strong> que llegan con regularidad a tu dirección de correo <strong>el cual es mi caso ya que tengo años suscrito y con base te puedo decir que los pelos del gato son negro</strong>.</p>
+
+<p>La intención de dichos boletines es mantenerte al tanto de las <strong>novedades y ofertas de dicha plataforma</strong> entre las que se incluyen también <strong>obsequios mensuales, y no fallan son puntuales</strong>. 😄</p>
+
+<p>Estos obsequios o regalos van desde activos de audio, video, gráficos, plugins para Wordpress y por supuesto <strong>plantillas para Wordpress</strong>.</p>
+
+<p>¡Que genial! una <strong>plantilla premium para Wordpress y totalmente gratis</strong>, caramba “<strong>a caballo regalado no se le mira el colmillo</strong>”, una frase peligrosa para este caso.</p>
+
+<p>Debido a que las plantillas gratuitas ofrecidas por este medio no incluye soporte y mucho menos actualizaciones y ahí viene el peligro de usarlas en tu proyecto de Wordpress.</p>
+
+<p>Se agradece el gesto por parte de Themeforest en ofrecer dichos recursos totalmente gratis, lamentablemente el riesgo sobrepasa la gratuidad.</p>
+
+<h2 id="el-riesgo-más-peligroso">El riesgo más peligroso.</h2>
+
+<p><strong>Si señor, tan serio es el asunto que hay que comenzar por lo mas crudo</strong>.</p>
+
+<p><strong>Punto uno</strong>.</p>
+
+<p>Supongamos que te instalaste una plantilla de estas gratuitas porque tu presupuesto no te permite pagar por ella, y resulta que el desarrollador de dicha plantilla encuentra <strong>un fallo de seguridad en su código que permite a un atacante acceder, por ejemplo, a la base de datos del sitio que esté usando dicha plantilla</strong>.</p>
+
+<p>El desarrollador sin dudas corregirá el error y liberará una actualización para mitigar los daños de sus clientes pero adivina qué, <strong>tu no podrás actualizar por haberla adquirido de forma gratuita</strong> y lo peor es que ni siquiera llegues a enterarte de que esa plantilla tiene un fallo de seguridad, por lo tanto tu proyecto estará expuesto por lo mínimo hasta que por equis razón decidas cambiar de plantilla.</p>
+
+<p><strong>Punto dos</strong>.</p>
+
+<p>Digamos que la vulnerabilidad proviene de un plugin de pago como el popular plugin de maquetación <a href="https://visualcomposer.com/" target="_blank" rel="noopener norreferer"><strong>Visual Composer</strong></a> y este viene incluido con la plantilla y se descubre una vulnerabilidad en el (<a href="https://wpvulndb.com/vulnerabilities/8208" target="_blank" rel="noopener norreferer"><strong>como a ocurrido en el pasado con este plugin</strong></a>) que pone en riesgo los sitios web que lo tengan instalado.</p>
+
+<p>La mis historia, la gente detrás de Visual Composer liberará una actualización que le hará llegar al desarrollador de la plantilla y el a su vez la liberara a sus clientes <strong>pero como nosotros tenemos una versión gratuita esta actualización tampoco nos llegará</strong>.</p>
+
+<h2 id="el-riesgo-más-suave">El riesgo más suave.</h2>
+
+<p>Quizás el “riesgo menor de usar una de estas plantillas gratuitas” es que no podremos utilizarlas al 100% ya que muchas de ellas requieren de un token que valide la comprar para poder disfrutar de todas las características que tenga para ofrecer.</p>
+
+<p>La imagen a continuación es un ejemplo de ello, se trata de la plantilla <a href="https://themeforest.net/item/gutenmag-gutenberg-wordpress-theme-for-magazine-and-blog/22718994" target="_blank" rel="noopener norreferer"><strong>GutenMag</strong></a> <strong>y si le prestas atención a la imagen anterior podras observar que me vino de regalo de año nuevo :-)</strong>.</p>
+
+<p><img src="https://lh3.googleusercontent.com/40wsaHjKV4Kw1K3zE_f_9iBZbKUN2eHWKoijO8Pb38iOysHRP_GKsR2VXtdNC4fkK9TWdCvsgKY8=s768" alt="GutenMag plantilla Wordpress" title="GutenMag plantilla Wordpress" /></p>
+
+<p>El asunto con esta plantilla es que requiere de un token y de nada sirve crearlo, como lo hice yo, porque igual te patea y te dice en pocas palabras, <strong>no no no vaya y pase por caja si me quieres utilizar en todo mi esplendor</strong>.</p>
+
+<blockquote>
+  <p>Como digo una cosa, digo la otra. No todas las plantillas requieren de un token para funcionar al 100% pero tampoco es sinónimo de que recibirás actualizaciones y puede que tampoco llegue a tener problemas de seguridad. La decisión de aventurarte corre por tu cuenta.</p>
+</blockquote>
+
+<p>Quizás te estarás preguntando, bueno si esto es así ¿<strong>por que Themeforest envía estas plantillas como regalo</strong>?, y la única respuesta que se me cruza por la mente es <strong>Marketing y punto</strong>, no olvides que son una empresa y que el producto final tiene en el fondo un trabajo que debe ser remunerado.</p>
+
+<h2 id="pros-y-contras-de-usar-plantillas-para-wordpress-gratuitas-de-themeforest">Pros y contras de usar plantillas para Wordpress gratuitas de Themeforest.</h2>
+
+<p><strong>Pros.</strong></p>
+
+<ul>
+  <li>Recibes una plantilla premium para Wordpress totalmente gratis.</li>
+</ul>
+
+<p><strong>Contras.</strong></p>
+
+<ul>
+  <li>Cero actualizaciones por lo tanto tu proyecto vivirá en la obsolescencia.</li>
+  <li>Tu proyecto podría estar expuesto a vulnerabilidades de seguridad en un futuro.</li>
+  <li>En muchos casos no podrás usar todas las funcionalidades premium de la plantilla.</li>
+  <li>No tienes acceso al soporte brindado por el desarrollador de la plantilla.</li>
+</ul>
+
+<p>Ahora que dilucidamos un poco sobre los <strong>pros y contras</strong> que supone usar estas plantillas llega la hora de <strong>la pregunta del millón</strong>.</p>
+
+<p>¿<strong>Es recomendable usar estas plantillas gratuitas de Themeforest</strong>?.</p>
+
+<p>Mi respuesta personal es un rotundo y absoluto <strong>NO</strong>.</p>
+
+<p>Como comentaba más arriba se agradece el gesto, pero el riesgo sobrepasa la gratuidad, claro tu eres libres de elegir si corres el riesgo o te vas por lo seguro.</p>
+
+<h2 id="consejos-para-elegir-una-plantilla-de-wordpress-para-tu-proyecto">Consejos para elegir una plantilla de Wordpress para tu proyecto.</h2>
+
+<p>Por experiencia propia una de las lecciones que me ha tocado aprender a golpe de herradura es que si vas en serio con tu proyecto llámese blog, marca personal o la web para tu pequeño negocio debes invertir algo de dinero en el. Y punto.</p>
+
+<p>Así que si cuentas con los recursos financieros suficiente acude a un desarrollador para que te haga una plantilla acorde a las necesidades de tu proyecto.</p>
+
+<p>Pero ten cuidado y elige bien, en internet abundan los “<strong>Gurús</strong>” del diseño web sobre Wordpress, <strong>la mayoría de estos “Gurúes” compran las plantillas ya hechas</strong> y te las clavan como que si ellos la hubiesen desarrollado desde cero.</p>
+
+<p>Tu mismo puedes verificar lo que te comento, basta que busques en Google <strong>Diseño Web Wordpress</strong>, y verás que hay páginas que te dicen que en 20 días tienen tu plantilla lista.</p>
+
+<p>Acudir con un desarrollador de plantillas para Wordpress es mucho, pero mucho más costoso que comprar una plantilla en <strong>Themeforest o cualquier otro Marketplace similar</strong>.</p>
+
+<p>En la mayoría de los casos esto te garantiza “<strong>exclusividad</strong>”, tu proyecto será “<strong>único y el diseño de tu página difícilmente se parecerá a otro o viceversa</strong>”.</p>
+
+<p>Y lo más importante podrás hablar con el desarrollador durante todo el proceso de creación de tu plantilla, y podrás disentir y validar sobre el aspecto y funcionalidades del diseño.</p>
+
+<p>Bien pero digamos que no cuentas con los recursos para pagar a un desarrollador, pero si para comprarte una plantilla ya hecha, pues en este caso has lo siguiente.</p>
+
+<p><strong>Yo lo llamo la fórmula 1+1</strong>, inventos míos no le pares mucho. 😉</p>
+
+<p>Elige una plantilla acorde a tu proyecto, si el proyecto es solo un blog entonces busca plantillas que sean única y estrictamente para ese fin.</p>
+
+<p>Ya que si eliges una plantilla multifunción, de esas que sirva para todo tipo de caso vas a tener una página web cargando un montón de <strong>código</strong>, <strong>librerías</strong> y <strong>plugins</strong> que no son útiles a tu proyecto, trayendo consigo consecuencias contraproducentes por ejemplo en los <strong>tiempos de carga de tu página web</strong> y esto a su vez repercute en el <strong>SEO de tu sitio</strong>.</p>
+
+<p>Ahora supongamos que tienes los recursos para costear el <strong>dominio del sitio y el hosting</strong> de tu proyecto, pero no para comprar una plantilla y mucho menos para acudir a un desarrollador.</p>
+
+<p>Pues <a href="https://es.wordpress.org/themes/browse/popular/" target="_blank" rel="noopener norreferer"><strong>Wordpress tiene un directorio de plantillas gratuitas</strong></a> para todo tipo de proyecto, aunque gran parte de ellas son muy básicas y tal vez no se adapten a tus necesidades.</p>
+
+<p>Una cosa sí es segura, tendrás actualizaciones constantes, soporte por parte del desarrollador y una gran comunidad que está dispuesta a ayudarte y responder tus inquietudes.</p>
+
+<p>Por ejemplo y aunque no viene al caso, el comienzo de este blog lo inicie con Wordpress allá por el 2014, (<em>actualmente está montado sobre <a href="https://jekyllrb.com/" target="_blank" rel="noopener norreferer"><strong>Jekyll</strong></a> y alojado en <a href="https://pages.github.com/" target="_blank" rel="noopener norreferer"><strong>Github Pages</strong></a> todo de forma gratuita incluida la plantilla, solo costeo el dominio porque es barato y puedo pagarlo en mi moneda local, debido a la crisis que atraviesa mi país Venezuela no me es posible costear un hosting para alojar un sitio basado en Wordpress. Así de jodidos estamos por acá xd</em>).</p>
+
+<p>En ese entonces tuve para comprar el dominio y pagar por el servidor pero no tenía para comprar una plantilla o mandar hacer una, así que apele al directorio de plantillas de Wordpress y los dos años y medio que mi blog vivió bajo Wordpress utilice la plantilla <a href="https://es.wordpress.org/themes/hueman/" target="_blank" rel="noopener norreferer"><strong>Hueman</strong></a> y los resultados fueron excelentes, una plantilla gratuita, optimizada al 100%, con actualizaciones constantes y un gran soporte por parte del desarrollador.</p>
+
+<p>De esta manera este post llega a su fin, espero que los consejos que hoy te ofrezco puedan guiarte en la dirección correcta para poner en marcha tu proyecto con Wordpress. Saludos.</p>
+:ET

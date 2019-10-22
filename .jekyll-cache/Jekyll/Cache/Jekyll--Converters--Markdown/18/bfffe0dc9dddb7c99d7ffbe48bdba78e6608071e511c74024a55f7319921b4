@@ -1,0 +1,395 @@
+I"�[<p>Hace año y medio por temas de economía (Venezuela) me toco migrar este blog de <a href="https://es.wordpress.org/" target="_blank" rel="noopener"><strong>Wordpress</strong></a> a <a href="https://jekyllrb.com/" target="_blank" rel="noopener"><strong>Jekyll</strong></a>, fue un cambio de 360º en todos los sentidos; sin dudas, porque con ello toco también adaptarse a la nueva forma de escribir los post, pase de usar el editor <em>WYSIWYG</em> de Wordpress para escribir el texto plano que todos conocemos, a utilizar mi editor de código para <strong>escribir en Markdown</strong>.</p>
+
+<p>Mi primer contacto con Markdown fue gracias a Github allí las documentaciones se escriben en este lenguaje de marcado.</p>
+
+<p>En un principio, mis repositorios en Github eran solo cosas pequeñas y sencillas como un <em>template HTML</em> reutilizable, <em>snippets</em> y uno más que otro <em>hack</em> de CSS nada que me obligara a escribir una extensa documentación.</p>
+
+<p>No fue si no hasta finales de 2016 cuando cree un plugin para el editor de código <a href="/mi-setup-vscode#materializecss-snippets" target="_blank" rel="noopener"><strong>Visual Studio Code</strong></a> donde me sumergí un poco más en Markdown y a partir de la nueva fase de este blog toco redactar los post en este enriquecido lenguaje de marcado.</p>
+
+<p>Por tal motivo quise hacer esta especie de guía para tenerla como referencia para futuras consultas y puede que tal vez te sirva a ti también. Espero te guste.</p>
+
+<h2 id="qué-es-markdown">¿Qué es Markdown?</h2>
+
+<p>Markdown es un lenguaje de marcado ligero para darle estilos a los textos planos. El lenguaje fue creado por <strong>Jhon Gruber</strong> en <strong>2004</strong> y uno de mis ídolos friki <a href="https://es.wikipedia.org/wiki/Aaron_Swartz" target="_blank" rel="noopener"><strong>Aaron Swartz</strong></a> (<em>QEPD</em>) aporto contribuciones importantes en el desarrollo de la sintaxis.</p>
+
+<p>En un principio Markdown fue desarrollado como una herramienta que permitiera una conversión amigable de texto plano a código HTML que evitara tener que escribir los pares de etiquetas propias de este lenguaje de marcado con el que se estructuran las páginas web.</p>
+
+<p>Es decir, escribías tus textos en Markdown y en un vuelo tenias un documento HTML valido y estructurado con sus respectivas etiquetas h1, p, strong, ol y ul.</p>
+
+<p>Claro eso fue en un principio, ya que con la popularidad alcanzada por el lenguaje ahora es implementado en muchos sitios de <em>microblogging</em> y utilizado por escritores y redactores profesionales.</p>
+
+<h2 id="sintaxis-markdown">Sintaxis Markdown.</h2>
+
+<p>La sintaxis no es más que “las reglas de escritura propias de cada lenguaje”, por ejemplo, el idioma Español tiene sus reglas de sintaxis, como escribir la primera letra en mayúscula al principio de un escrito o después de un punto y a parte.</p>
+
+<p>Markdown al ser considerado un lenguaje aunque no lingüístico, también tiene su propia sintaxis, así que hay parámetros sintácticos explícitamente establecidos que debemos seguir.</p>
+
+<p>Por ejemplo: si queremos resaltar un texto en negritas este debe llevar dos asteriscos <strong>*</strong>* al principio y al final de la palabra. Esto solo es uno de los tantos parámetros de formateado que existen en este lenguaje.</p>
+
+<p>Cabe acotar que, la sintaxis que nació junto a Markdown no es un estándar, la necesidad de añadir nuevas características sobre la base creada por <strong>Jhon Gruber</strong> y <strong>Aaron Swartz</strong> considerado por muchos como obsoleto, ha dado paso a lo que se conoce como Markdown flavors o sabores de Markdown esto lo veremos más delante; por ahora adentrémonos en la sintaxis básica de Markdown.</p>
+
+<h3 id="párrafos">Párrafos.</h3>
+
+<p>Los párrafos en Markdown se escribe como en cualquier otro editor de texto, no llevan ninguna sintaxis especial, el lenguaje al detectar que dicho escrito no lleva consigo algún comando de formateado lo interpretara como un párrafo.</p>
+
+<p><strong>Entrada</strong>:</p>
+
+<figure class="highlight"><pre><code class="language-markdown" data-lang="markdown">Estos es un párrafo escrito en Markdown.</code></pre></figure>
+
+<p><strong>Salida</strong>:</p>
+
+<p>Esto es un párrafo escrito en Markdown.</p>
+
+<h3 id="títulos-o-encabezados">Títulos o encabezados.</h3>
+
+<p>Los títulos o encabezados en Markdown se genera con un signo numeral <strong>#</strong> y la especificidad de cada uno se establece por el numero de <strong>#</strong> que lo antecedan.</p>
+
+<p>Por ejemplo: si queremos un título de primer nivel bastaría con un <strong>#</strong>, en cambio si queremos un subtitulo debería antecederlo dos <strong>#</strong> y así sucesivamente hasta el ultimo nivel que serian seis <strong>#</strong>.</p>
+
+<p>También hay dos comandos de formateado con alcance para los dos primeros niveles de título, siendo estos el signo igual <strong>=</strong> para los títulos de nivel 1 y el guion <strong>-</strong> para el nivel 2.</p>
+
+<p><strong>Entrada</strong>:</p>
+
+<figure class="highlight"><pre><code class="language-markdown" data-lang="markdown"><span class="gh"># Título 1</span>
+<span class="gu">## Título 2</span>
+<span class="gu">### Título 3</span>
+<span class="gu">#### Título 4</span>
+<span class="gu">##### Título 5</span>
+<span class="gu">###### Título 6</span>
+
+Título 1
+=
+
+Título 2
+-</code></pre></figure>
+
+<p><strong>Salida</strong>:</p>
+
+<p><strong># Título 1</strong>. Por razones de <strong>SEO</strong> he marcado este título para que no sea interpretado como tal, ya que un artículo o post redactado para la web no debe llevar más de un encabezado de primer nivel (h1) para no romper la estructura semántica.</p>
+
+<h2 id="título-2">Título 2</h2>
+
+<h3 id="título-3">Título 3</h3>
+
+<h4 id="título-4">Título 4</h4>
+
+<h5 id="título-5">Título 5</h5>
+
+<h6 id="título-6">Título 6</h6>
+
+<h3 id="negritas">Negritas.</h3>
+
+<p>Para resaltar un palabra en negritas debes usar dos <strong>*</strong>* al principio y final de la palabra. También puedes usar dos guiones bajos <strong>__</strong> para lograr el mismo objetivo.</p>
+
+<p>Como buena practica sintáctica, si comienzas resaltando texto en negritas con los asterisco deberías mantener estos en el resto del documento.</p>
+
+<p><strong>Entrada</strong>:</p>
+
+<figure class="highlight"><pre><code class="language-markdown" data-lang="markdown"><span class="gs">**Esto es un texto en negritas con dos asteriscos**</span>.
+
+<span class="gs">__Esto es un texto en negritas con dos guiones bajos__</span>.</code></pre></figure>
+
+<p><strong>Salida</strong>:</p>
+
+<p><strong>Esto es un texto en negritas</strong>.</p>
+
+<h3 id="cursivas">Cursivas.</h3>
+
+<p>Para las cursivas puedes usar un <strong>*</strong> al principio y final de la palabra. También puedes utilizar un guion bajo <strong>_</strong> para obtener el mismo resultado.</p>
+
+<p><strong>Entrada</strong>:</p>
+
+<figure class="highlight"><pre><code class="language-markdown" data-lang="markdown"><span class="ge">*Esto es un texto en cursiva con un asterisco*</span>.
+
+<span class="ge">_Esto es un texto en cursiva con un guion bajo_</span>.</code></pre></figure>
+
+<p><strong>Salida</strong>:</p>
+
+<p><em>Esto es un texto en cursiva</em>.</p>
+
+<h3 id="texto-tachado">Texto tachado.</h3>
+
+<p>El texto tachado se obtiene con dos pares de <em>virgulillas</em> <strong>~</strong> o como yo le llamo “acento de la eñe”. Para sacar la <em>virgulillas</em> en el teclado presiona la combinación de teclas <code class="highlighter-rouge">Alt Gr + 4</code>.</p>
+
+<p><strong>Entrada</strong>:</p>
+
+<figure class="highlight"><pre><code class="language-markdown" data-lang="markdown">~~Esto es un texto tachado~~</code></pre></figure>
+
+<p><strong>Salida</strong>:</p>
+
+<p><del>Esto es un texto tachado</del>.</p>
+
+<h3 id="enlaces">Enlaces.</h3>
+
+<p>Los enlaces se establecen de la siguiente manera: <strong>[Texto del enlace](url del enlace “Título del enlace”)</strong> entre los corchetes iría el texto visible y dentro de los paréntesis iría la url, si por el contrario quieres mostrar la url el marcado seria el siguiente: <strong>&lt;url del enlace&gt;</strong>.</p>
+
+<p><strong>Entrada</strong>:</p>
+
+<figure class="highlight"><pre><code class="language-markdown" data-lang="markdown"><span class="p">[</span><span class="nv">Este es mi enlace</span><span class="p">](</span><span class="sx">https://www.leninalbertop.com.ve</span> <span class="nn">"Este es mi enlace"</span><span class="p">)</span>
+
+<span class="nv">&lt;https://www.leninalbertop.com.ve&gt;</span></code></pre></figure>
+
+<p><strong>Salida</strong>:</p>
+
+<p><a href="https://www.leninalbertop.com.ve" title="Este es mi enlace">Este es mi enlace</a></p>
+
+<p><a href="https://www.leninalbertop.com.ve">https://www.leninalbertop.com.ve</a></p>
+
+<h3 id="imágenes">Imágenes.</h3>
+
+<p>El marcado para las imágenes es similar al de los enlaces solo que se debe anteponer el signo de exclamación <strong>!</strong> quedando de la siguiente manera: <strong>![Texto alternativo ALT](url de la imagen “Título de  la imagen”)</strong>.</p>
+
+<p><strong>Entrada</strong>:</p>
+
+<figure class="highlight"><pre><code class="language-markdown" data-lang="markdown"><span class="p">![</span><span class="nv">Una imagen asombrosa</span><span class="p">](</span><span class="sx">/image/mi-asombrosa-imagen.webp</span> <span class="nn">"Esta imagen si que esta cool."</span><span class="p">)</span></code></pre></figure>
+
+<p><strong>Salida</strong>:</p>
+
+<p><img src="/images/img-post/una-imagen-asombrosa.webp" alt="Una imagen asombrosa" title="Esta imagen si que esta cool." /></p>
+
+<h3 id="listas-ordenadas">Listas ordenadas.</h3>
+
+<p>Las listas ordenadas se generan utilizando números en orden ascendete, es decir comienza con el <strong>número 1</strong> y va ascendiendo según la cantidad requerida.</p>
+
+<p><strong>Entrada</strong>:</p>
+
+<figure class="highlight"><pre><code class="language-markdown" data-lang="markdown"><span class="p">1.</span> Lista ordenada 1
+<span class="p">2.</span> Lista ordenada 2
+<span class="p">3.</span> Lista ordenada 3</code></pre></figure>
+
+<p><strong>Salida</strong>:</p>
+
+<ol>
+  <li>Lista ordenada 1</li>
+  <li>Lista ordenada 2</li>
+  <li>Lista ordenada 3</li>
+</ol>
+
+<p>También puedes crear sublistas dentro de una lista. Solo debes “sangrar” tres espacios para crearlas.</p>
+
+<p><strong>Entrada</strong>:</p>
+
+<figure class="highlight"><pre><code class="language-markdown" data-lang="markdown"><span class="p">1.</span> Lista ordenada 1
+<span class="p">2.</span> Lista ordenada 2
+<span class="p">   1.</span> Sublista 1
+<span class="p">   2.</span> Sublista 2
+<span class="p">3.</span> Lista ordenada 3</code></pre></figure>
+
+<p><strong>Salida</strong>:</p>
+
+<ol>
+  <li>Lista ordenada 1</li>
+  <li>Lista ordenada 2
+    <ol>
+      <li>Sublista 1</li>
+      <li>Sublista 2</li>
+    </ol>
+  </li>
+  <li>Lista ordenada 3</li>
+</ol>
+
+<h3 id="listas-desordenadas">Listas desordenadas.</h3>
+
+<p>Las listas desordenadas se pueden generar a partir de los siguientes signos: <strong>-</strong>, <strong>+</strong>, <strong>*</strong>. Puedes usar una combinación de ellos para generar tu lista desordenada pero nuevamente te recuerdo que lo ideal es mantener una sintaxis coherente. Yo suelo usar los asterisco.</p>
+
+<p><strong>Entrada</strong>:</p>
+
+<figure class="highlight"><pre><code class="language-markdown" data-lang="markdown"><span class="p">*</span> Lista desordenada 1
+<span class="p">*</span> Lista desordenada 2
+<span class="p">*</span> Lista desordenada 3</code></pre></figure>
+
+<p><strong>Salida</strong>:</p>
+
+<ul>
+  <li>Lista desordenada 1</li>
+  <li>Lista desordenada 2</li>
+  <li>Lista desordenada 3</li>
+</ul>
+
+<p>Para las sublista se aplica los mismo que en la lista ordenada.</p>
+
+<p><strong>Entrada</strong>:</p>
+
+<figure class="highlight"><pre><code class="language-markdown" data-lang="markdown"><span class="p">*</span> Lista desordenada 1
+<span class="p">*</span> Lista desordenada 2
+<span class="p">  *</span> Sublista 1
+<span class="p">  *</span> Sublista 2
+<span class="p">*</span> Lista desordenada 3</code></pre></figure>
+
+<p><strong>Salida</strong>:</p>
+
+<ul>
+  <li>Lista desordenada 1</li>
+  <li>Lista desordenada 2
+    <ul>
+      <li>
+        <p>Sublista 1</p>
+      </li>
+      <li>
+        <p>Sublista 2</p>
+      </li>
+    </ul>
+  </li>
+  <li>Lista desordenada 3</li>
+</ul>
+
+<h3 id="citas-o-blockquotes">Citas o Blockquotes.</h3>
+
+<p>Para generar bloques de citas se utiliza el signo o caracter mayor que <strong>&gt;</strong>.</p>
+
+<p><strong>Entrada</strong>:</p>
+
+<figure class="highlight"><pre><code class="language-markdown" data-lang="markdown"><span class="gt">&gt; Todos somos muy ignorantes, lo que ocurre es que no todos ignoramos las mismas cosas. -Albert Einstein</span></code></pre></figure>
+
+<p><strong>Salida</strong>:</p>
+
+<blockquote>
+  <p>Todos somos muy ignorantes, lo que ocurre es que no todos ignoramos las mismas cosas. -Albert Einstein</p>
+</blockquote>
+
+<h3 id="bloques-de-código">Bloques de código.</h3>
+
+<p>Los bloques de código se generan de la siguiente manera: usando un par del caracter o signo <strong>`</strong> conocido en informática como <em>backticks</em> dará como resulta un bloque de código en lineá.</p>
+
+<p><strong>Entrada</strong>:</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="sb">`Print("¡Que tal, Universo!")`</span></code></pre></figure>
+
+<p><strong>Salida</strong>:</p>
+
+<p><code class="highlighter-rouge">Print("¡Que tal, Universo!")</code></p>
+
+<p>Para bloques de código más extensos se debe de utilizar tres pares de <em>backticks</em>, llevando el trio superior la referencia al lenguaje en el que se escribe.</p>
+
+<p><strong>Entrada</strong>:</p>
+
+<figure class="highlight"><pre><code class="language-markdown" data-lang="markdown"><span class="p">```</span><span class="nl">python
+</span><span class="n">my_variable</span> <span class="o">=</span> <span class="s">"¡Que tal, universo!"</span>
+
+<span class="k">print</span><span class="p">(</span><span class="n">my_variable</span><span class="p">)</span>
+<span class="p">```</span></code></pre></figure>
+
+<p><strong>Salida</strong>:</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="n">my_variable</span> <span class="o">=</span> <span class="s">"¡Que tal, universo!"</span>
+
+<span class="k">print</span><span class="p">(</span><span class="n">my_variable</span><span class="p">)</span></code></pre></figure>
+
+<h3 id="tablas">Tablas.</h3>
+
+<p>Las tablas Markdown son quizás “lo que más canas saca”, sobre todo si estas son complejas ya que el lenguaje no fue creado para reemplazar a HTML. En línea general la estructura de una tabla en Markdown sería la siguiente.</p>
+
+<p><strong>Entrada</strong>:</p>
+
+<figure class="highlight"><pre><code class="language-markdown" data-lang="markdown">| uno  | dos    | tres  |
+| ---- | :----: | ----: |
+| tres | dos    | uno   |
+| uno  | dos    | tres  |
+| tres | dos    | uno   |</code></pre></figure>
+
+<p><strong>Salida</strong>:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>uno</th>
+      <th style="text-align: center">dos</th>
+      <th style="text-align: right">tres</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>tres</td>
+      <td style="text-align: center">dos</td>
+      <td style="text-align: right">uno</td>
+    </tr>
+    <tr>
+      <td>uno</td>
+      <td style="text-align: center">dos</td>
+      <td style="text-align: right">tres</td>
+    </tr>
+    <tr>
+      <td>tres</td>
+      <td style="text-align: center">dos</td>
+      <td style="text-align: right">uno</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Los dos puntos <strong>:</strong> en los guiones de la tabla hacen referencia a la alineación que tendrá cada celda.</p>
+
+<p>Guiones sin puntos es la alineación por defecto a la izquierda, dos puntos al principio y final de los guiones es una alineación centrada, dos puntos al final de los guiones alinea el contenido a la derecha, dos punto al principio de los guiones cumple el mismo objetivo de la alineación por defecto.</p>
+
+<h3 id="caracter-de-escape">Caracter de escape.</h3>
+
+<p>En este punto seguro ya te haz dado cuenta que Markdown utiliza caracteres conocidos en nuestro idioma cotidiano; asteriscos, signo de exclamación, corchetes, paréntesis.</p>
+
+<p>Dichos signos o caracteres son interpretados por el lenguaje como operadores de formateado y serán leídos de esta manera a menos que explícitamente le indiquemos que no lo haga.</p>
+
+<p>Para lograr este fin debemos colocar la barra invertida <strong>\</strong> o <em>backslash</em> en inglés por delate del operador de formateado. Ejemplo: <strong>\+</strong> aquí le pido a Markdown que el signo <strong>+</strong> que sirve para crear listas, sea interpretado como eso, un signo de suma y no un elemento de formateado.</p>
+
+<h2 id="markdown-flavors">Markdown Flavors.</h2>
+
+<p>En un principio no todo era perfecto en Markdown, la base original de la sintaxis creada en 2004 por <strong>Jhon</strong> y <strong>Aaron</strong> no era explicita sobre algunas reglas que trajeron consigo muchas preguntas sin respuestas algunas de ellas eran.</p>
+
+<ul>
+  <li>¿Cuantas sangrías se necesitan para una sublista?</li>
+  <li>¿Se necesita una línea en blanco antes de una comilla o encabezado?</li>
+  <li>¿Se necesita una línea en blanco antes de un bloque de código sangrado?</li>
+  <li>¿Pueden los elementos de una lista estar vacíos?</li>
+</ul>
+
+<p>Sin existir una variable que diera respuesta a estas preguntas no faltaron los que se adentraron a consultar la base para tratar de resolver estas ambigüedades, pero se encontraron que la base de Markdown era bastante defectuosa  y arrojaba errores muy malos en muchos casos al tratar de solventar lo antes mencionado.</p>
+
+<p>¡<em>Eh aquí el talón de Aquiles de Markdown</em>! nacieron los sabores de Markdown que propiamente dicho serian nuevas versiones sobre la base original que técnicamente podríamos llamarle fragmentación.</p>
+
+<p>Para muchos, un motivo para huir de Markdown como lo explica <strong>Eric Holscher</strong> en su artículo <a href="https://www.ericholscher.com/blog/2016/mar/15/dont-use-markdown-for-technical-docs/" target="_blank" rel="noopener">Por qué no deberías usar Markdown</a>.</p>
+
+<p>Para otros tantos aplica el dicho <em>en la variedad esta el gusto</em>, en fin. Quizás el sabor más implementado es  <strong>CommonMark</strong> que vino a sentar una base claramente definida para una sintaxis estándar e inequívoca para Markdown.</p>
+
+<p>Existen sabores de Markdown más que los dedos de mis manos, la mayoría toman a Markdown y CommonMark como base. Aquí una listo de algunos de los más utilizados.</p>
+
+<ul>
+  <li><a href="https://commonmark.org/" target="_blank" rel="noopener">CommonMark</a></li>
+  <li><a href="https://github.github.com/gfm/" target="_blank" rel="noopener">Github flavors</a></li>
+  <li><a href="https://kramdown.gettalong.org/" target="_blank" rel="noopener">kramdown</a></li>
+</ul>
+
+<p>Para un lista con sabores más extensa visita el siguiente <a href="https://github.com/commonmark/commonmark-spec/wiki/markdown-flavors" target="_blank" rel="noopener"><strong>Link</strong></a>.</p>
+
+<h2 id="editor-markdown">Editor Markdown.</h2>
+
+<p>Por regla general hasta el bloc de notas te sirve para escribir en Markdown, pero no es el editor acorde para  ello, sobre todo si estas empezando con el lenguaje.</p>
+
+<p><img src="/images/img-post/markdown-bloc-de-notas.webp" alt="Markdown en Bloc de notas" title="Escribiendo Markdown en el Bloc de notas" /></p>
+
+<p>La razón principal es que no tiene un soporte adecuado y por tal motivo no cuenta con resaltado de sintaxis, vista previa o capacidad de exportación a otros formatos tales como docx, pdf, html.</p>
+
+<p>Un editor para Markdown viene a facilitar las cosas ya que incluyen lo mencionado en el párrafo anterior, a demás de incluir atajos de teclado para insertar los operadores de formateado, soporte para varios sabores y una “interfaz parecida al de Microsoft Word”.</p>
+
+<p>La variedad de editores Markdown es tal, cual confeti para arrojar por los aires.</p>
+
+<p>Los hay para escritorio y smartphone, de pagos, gratis y hasta on-line por este ultimo comenzaremos este recorrido, eso si no esperes una lista extensa en este post porque no la va haber. La razón es que no quiero abrumarte por ello solo listare “los más populares”.</p>
+
+<h3 id="editores-markdown-on-line">Editores Markdown On Line.</h3>
+
+<p>Tal vez la mejor opción para tener un primer contacto. Comencemos.</p>
+
+<ul>
+  <li><a href="/stackedit-editor-markdown" target="_blank" rel="noopener"><strong>Stackedit</strong></a> Es mi editor on line preferido, Stackedit cuenta con varios agregados estupendos como iniciar Sesión con tu cuenta de Google, Github, Gitlab para almacenar tus documentos en la nube, vista previa con desplazamiento en vivo, espacios de trabajo colaborativos, soporte para los sabores Markdown Extra, CommonMark y Github Flavor.</li>
+  <li><a href="https://dillinger.io/" target="_blank" rel="noopener"><strong>Dillinger</strong></a> Dillinger esta desarrollado en Angular, cuenta con vista previa e inicio de sesión con Dropbox, Google Drive, One Drive, Github para almacenar documentos en la nube.</li>
+  <li><a href="https://hackmd.io/" target="_blank" rel="noopener"><strong>Hackmd</strong></a> Permite trabajo colaborativo en tiempo real, vista previa, capacidad de exportar Markdown en otros formatos</li>
+  <li><a href="https://stackeditpro.io/" target="_blank" rel="noopener"><strong>Stackeditpro</strong></a> Esto es un Fork de Stackedit pero con baterías recargadas.</li>
+</ul>
+
+<h3 id="editores-markdown-para-escritorio">Editores Markdown para Escritorio.</h3>
+
+<ul>
+  <li><a href="https://typora.io/" target="_blank" rel="noopener"><strong>Typora</strong></a> Es el editor que utilizo en mi pc, en combinación con mi editor de código VScode le dan vida a los post de este blog. Typora tiene una vista previa un tanto diferente al resto de editores ya que este se produce sobre la marcha.</li>
+  <li><a href="http://pad.haroopress.com/user.html" target="_blank" rel="noopener"><strong>Haroopad</strong></a> Un potente editor gratuito disponible para Windows, Linux y MacOS, Github Flevor mas extensiones, exportación a otros formatos.</li>
+  <li><a href="http://writemonkey.com/" target="_blank" rel="noopener"><strong>Writemonkey</strong></a> Es un editor minimalista en todos los sentidos, cuenta con características igual que los anteriores. Pese a poder usarse de forma gratuita si haces una donación monetaria recibirás una clave que te permitirá desbloquear extras adicionales.</li>
+  <li><a href="https://code.visualstudio.com/" target="_blank" rel="noopener"><strong>Visual Studio Code</strong></a>, <a href="https://www.sublimetext.com/" target="_blank" rel="noopener">Sublime Text</a>, <a href="https://atom.io/" target="_blank" rel="noopener">Atom</a> Meramente, no son editores exclusivos para Markdown pero cuentan con infinidades de plugins que les permiten trabajar de buena manera con este lenguaje.</li>
+</ul>
+
+<p>Hasta aquí llega este post, espero que pueda serte de ayuda. Recuerda que estoy abierto a tus preguntas y puedes formularlas en el apartado de comentarios.</p>
+:ET

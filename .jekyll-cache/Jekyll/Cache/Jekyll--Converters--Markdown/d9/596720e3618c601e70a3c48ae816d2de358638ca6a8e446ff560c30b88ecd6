@@ -1,0 +1,35 @@
+I"�<p>En este post veremos <strong>cómo cambiar el idioma de inglés a español al bash de ubuntu 18.04 LTS</strong> en el subsistema de windows para linux (wsl), esto es ideal por si no entendemos a la perfección el idioma inglés que es con el que viene por defecto.</p>
+
+<p>Al hacerlo tendremos la ventaja ante cualquier error que se presente en el sistema, ya que podremos leerlo en nuestro idioma natal, obteniendo con ello una interpretación correcta de dicho evento.</p>
+
+<h2 id="antes-de-continuar">Antes de continuar.</h2>
+<blockquote>
+  <p>En post anteriores hemos visto <a href="/windows-subsystem-linux"><strong>cómo habilitar el subsistema de windows para linux</strong></a>, también a <a href="/instalar-zsh-ohmyzsh-windows10"><strong>cómo instalar zsh y oh my zsh</strong></a> personalizarlo con temas e instalar plugins para extender el potencial de esta shell.</p>
+</blockquote>
+
+<p><img src="https://lh3.googleusercontent.com/Qyey5aDhdojvuYsha-1XzTlzEKopdZpSRB-xhdP5LAx0l7BFD-b702ftGXQ-9nfF9fMId3QRhX08=s768" alt="Configurar idioma español al bash de ubuntu en windows 10" title="Cambiar el idioma al español al bash de ubuntu en windows 10" /></p>
+
+<p>Lo primero que tenemos que hacer es descargar los paquetes de idioma en español, para ello ejecuta el siguiente comando en la terminal o bash de ubuntu.</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nv">$ </span><span class="nb">sudo </span>apt <span class="nb">install </span>language-pack-es</code></pre></figure>
+
+<p>Luego de descargado los paquetes toca configurar el idioma de la interfaz, así que en el terminal ejecuta este otro comando.</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nv">$ </span><span class="nb">sudo </span>dpkg-reconfigure locales</code></pre></figure>
+
+<p><img src="https://lh3.googleusercontent.com/79AVl_ouP4FJ9rQkYD8kTMsi0rjhTTaW40eqk_fDFlKzpjy0rbBG3pE9uSvi5p8RfPWSv5wKvp2b=s768" alt="enter image description here" title="Configuración de idioma en el bash de ubuntu 18.04 en windows 10" /></p>
+
+<p>Acto siguiente se nos abrirá la interfaz de configuración local, en la que debes seleccionar el idioma según tu país y con juego de caracteres <strong>UTF-8</strong>, en mi caso <code class="highlighter-rouge">es_VE</code> por <strong>Venezuela</strong>.</p>
+
+<p>Para moverte entre las opciones utiliza las teclas de flechas, para elegir una opción usa la tecla <code class="highlighter-rouge">Enter</code>, para saltar a las opciones <code class="highlighter-rouge">&lt;Ok&gt;</code> y <code class="highlighter-rouge">&lt;Cancel&gt;</code> usa la tecla <code class="highlighter-rouge">Tabulador</code>.</p>
+
+<p><img src="https://lh3.googleusercontent.com/JmMQw2tNu1WP-QVG-n4gKUiBUeQ6ZrOmq5_Y3-km4HxC664qGzNTH1ITvu6rW9jb5k5Ld4iuH2Ax=s768" alt="Seleccionar idioma en el bash e ubuntu en windows 10" title="Seleccionar idioma español en el bash de ubuntu en windows 10" /></p>
+
+<p>En la siguiente ventana y como último paso elige el idioma <code class="highlighter-rouge">es_</code> con la terminación local acorde a tu país.</p>
+
+<p><img src="https://lh3.googleusercontent.com/Wc5N7P5HR-6jVmTQYj_assDy4Ff793beGuFoETfZFzJhpwUvGAqjOMsIJ8fNUUftKIYEf1C5JR2z=s768" alt="Cambiar idioma desde terminal a ubuntu 18.04" title="Cambiar idioma a ubuntu desde el terminal" /></p>
+
+<p>Ahora ya tienes tu bash de ubuntu en tu idioma natal y hasta aquí nos ha traído este post, esperando como siempre que haya sido de tu utilidad.</p>
+
+<p>Nos leemos en la próxima.</p>
+:ET

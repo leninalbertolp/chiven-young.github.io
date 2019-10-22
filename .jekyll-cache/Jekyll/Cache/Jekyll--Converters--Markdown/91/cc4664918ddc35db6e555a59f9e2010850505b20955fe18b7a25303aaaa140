@@ -1,0 +1,33 @@
+I"�<p>Como desarrollador web siempre ando en busca de nuevas herramientas que me permitan realizar mi trabajo de forma práctica.</p>
+
+<p>Sobre todo en aquellas instancias en las que solo quiero realizar pruebas sin tener que pasar por el “<strong>bucle infinito</strong>” de armar el entorno necesario para tal fin, ya sabes crear las carpetas, archivos y en ciertos casos descargar las librerías.</p>
+
+<p>Por eso hoy quiero hablarte de <a href="https://webmaker.app/" target="_blank" rel="noopener norreferer"><strong>Web Maker</strong></a> un editor de código gratuito y Open Source que funciona en el navegador al mas puro estilo de <a href="https://codepen.io/" target="_blank" rel="noopener norreferer"><strong>Codepen</strong></a>.</p>
+
+<p>Ideal para realizar tus experimentos de forma rápida, está enfocado al uso de las tecnologías web <strong>HTML</strong>, <strong>CSS</strong> y <strong>Javascript</strong>.</p>
+
+<p><img src="https://lh3.googleusercontent.com/GFAkMvI4YKAR7vvBumBqa-bdI00akJtP3762eDhIXSr3naVjk6kMcqqyWKL_TmNKH6PpByMIqLlw=s768" alt="Web Maker App proyecto Stan South Parkenter image description here" title="Proyecto hecho en Web Maker App" /></p>
+
+<h2 id="características-de-web-maker">Características de Web Maker</h2>
+
+<p>Web Maker viene cargada con un arsenal de opciones entre la que destaca poder usarlo en modo offline, así que la conexión a internet no es un impedimento. Además puedes iniciar sesión en la aplicación con tu cuenta de <strong>Github</strong>, <strong>, Google</strong> o <strong>Facebook</strong> para guardar todos tus experimentos y acceder a ellos cuando quieras.</p>
+
+<ul>
+  <li>Modo Offline (la primera vez que accede debes tener conexión a internet)</li>
+  <li>Preprocesadores <strong>HTML</strong> (pug, markdown), <strong>CSS</strong> (SCSS, LESS, Stylus, Atomic CSS), <strong>JavaScript</strong> (ES6, CoffeeScript, TypeScript)</li>
+  <li>Emmet</li>
+  <li>Auto-completado de código (Intellisense)</li>
+  <li>Vista previa con auto reload</li>
+  <li>Librerías <strong>CSS</strong> y <strong>JavaScript</strong> bootstrap, foundation, angular, react, vue entre otros muchos, también podrás buscar y cargar cualquier otra librería desde <a href="https://cdnjs.com/" target="_blank" rel="noopener norreferer"><strong>cdnjs</strong></a> gracias al buscador integrado, y de forma manual desde los siguientes servicios.
+<code class="highlighter-rouge">localhost, https://ajax.googleapis.com, https://code.jquery.com, https://cdnjs.cloudflare.com, https://unpkg.com, https://maxcdn.com, https://cdn77.com, https://maxcdn.bootstrapcdn.com, https://cdn.jsdelivr.net/, https://rawgit.com, https://wzrd.in</code></li>
+  <li>Puedes compartir o terminar tu proyecto en Codepen</li>
+  <li>Consola integrada</li>
+  <li><a href="https://chrome.google.com/webstore/detail/web-maker/lkfkkhfhhdkiemehlpkgjeojomhpccnh" target="_blank" rel="noopener norreferer"><strong>Extensión para Google Chrome</strong></a></li>
+</ul>
+
+<p><img src="https://lh3.googleusercontent.com/nNbzKay4XLa-pCAVl705erY8o7LmcnuxqoCWnSzNzZGR-B4umtDMv8LJpoZwnqfjqIpGIkB-cM6e=s768" alt="Editor de código Web Maker" title="Configuraciones de Web Maker" /></p>
+
+<p>El editor de código también cuenta con sus configuraciones, en la que podrás elegir el tema visual del editor, la fuente tipográfica y su tamaño así como los atajos de teclado (sublime text o vim).</p>
+
+<p>Bien esto ha sido todo por ahora, espero que Web Maker sea de tu utilidad y puedas sacarle el máximo provecho. Hasta la próxima.</p>
+:ET

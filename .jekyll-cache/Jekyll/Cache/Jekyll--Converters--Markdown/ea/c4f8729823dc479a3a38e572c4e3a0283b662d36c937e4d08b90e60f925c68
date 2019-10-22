@@ -1,0 +1,74 @@
+I"<p>¡Ey!, sabias que desde <strong>Spotify Web Player</strong> puedes disfrutar de todo el contenido de <strong>Spotify</strong> directamente desde tu navegador web y sin instalar nada más.</p>
+
+<p>Acompáñame en este post y descubre <strong>qué es Spotify Web Player</strong>, sus pros y contras y cómo disfrutar de él desde tu computadora como si fuera una aplicación nativa gracias a las tecnologías que componen a las <strong>Progressive Web Apps</strong> o <strong>Aplicaciones Web Progresivas</strong>.</p>
+
+<blockquote>
+  <p>También te puede interesar: <a href="https://www.leninalbertop.com.ve/spotify-venezuela"><strong>Cómo usar Spotify desde Venezuela</strong></a></p>
+</blockquote>
+
+<p>Pero antes de continuar es bueno que nos pongamos en contexto con un poco de definición que no hace daño a nadie.</p>
+
+<h2 id="qué-es-spotify-web-player">¿Qué es Spotify Web Player?.</h2>
+
+<p><strong>Spotify Web Player</strong> es la aplicación web oficial de Spotify valga la redundancia, que te permite <strong>disfrutar de todo el contenido directamente desde tu navegador web</strong> sea este <strong>Google Chrome</strong>, <strong>Opera</strong>, <strong>Microsoft Edge</strong> o <strong>Firefox</strong> sin la necesidad de descargar Spotify en tu computadora o teléfono móvil ni más, ni menos eso es lo que es.</p>
+
+<p>Y sin ser adivino, estoy seguro que la aplicación que más utilizas en tu computadora es el navegador web, así que esto te viene de perlas.</p>
+
+<p>Además, gracias a que Spotify Web Player está desarrollada bajo el concepto de <strong>Progressive Web Apps</strong> podrás usarla como si de una aplicación nativa se tratase.</p>
+
+<h2 id="y-qué-rayos-es-una-progressive-web-apps">¿Y qué rayos es una Progressive Web Apps?.</h2>
+
+<p><strong>Una Progressive Web App o Aplicación Web Progressiva</strong> es una especie de “aplicación híbrida” o una página web común y corriente basada en tecnologías web (<em>HTML, CSS y Javascript</em>) que gracias a otra tecnología llamada <strong>Service Workers</strong> le permite comunicarse con el sistema operativo que la ejecute y aprovechar muchas de sus funciones nativas como por ejemplo <strong>las notificaciones, la cámara, micrófono, sensores del móvil como el giroscopio, almacenamiento en caché y la posibilidad de ejecutarlas sin conexión a internet</strong>.</p>
+
+<p>El tema de las Progressive Web Apps da mucha tela para cortar, pero en resumen es “beneficio puro, tanto para el desarrollador como para el usuario final”.</p>
+
+<p>Si quieres ahondar más sobre este tema puedes visitar el siguiente <a href="https://developers.google.com/web/fundamentals/codelabs/your-first-pwapp/?hl=es" target="_blank" rel="noopener norreferer"><strong>LINK</strong></a> donde podrás ampliar las bondades de este tipo de aplicaciones.</p>
+
+<h2 id="cómo-usar-spotify-web-player">Cómo usar Spotify Web Player.</h2>
+
+<p><strong>Al ser Spotify Web Player una aplicación web</strong> podremos usarla desde cualquier lugar y desde cualquier sistema operativo sea este <strong>Windows</strong>, <strong>Linux</strong>, <strong>MacOs</strong>, <strong>Android</strong> e <strong>iOS</strong> lo único que debemos tener instalado es un navegador web.</p>
+
+<p>Así que abre tu navegador web favorito y accede al siguiente <a href="https://open.spotify.com/" target="_blank" rel="noopener norreferer"><strong>LINK</strong></a> que te llevara al sitio oficial de Spotify Web Player, una vez allí tendrás que iniciar sesión en la aplicación y listo.</p>
+
+<p><img src="https://lh3.googleusercontent.com/YnTmNPYI--YhqOGA2EzcnPlJKrIPvQqdHyVp6ZuIvacBYbhLrbKCb8kwOaw4Wx1znhfkXE-uQSL8=s768" alt="Spotify Web Player" title="Spotify Web Player" /></p>
+
+<p>Al iniciar sesión en Spotify Web Player lo primero que resalta a la vista es una interfaz minimalista con un menú superior y uno lateral que se explican por si solos y con todo lo necesario para que con solo “un par de click” puedas reproducir tu música favorita.</p>
+
+<p><img src="https://lh3.googleusercontent.com/D4HEtgHTrotv_qhuXL1ht09v0DOL3kFZgzGZFWBmmv60Rk5sXkMRS3lmho2dzzv9gMVe6PpOwxaQ=s768" alt="Spotify Web Player" title="Spotify Web Player" /></p>
+
+<p>Algo que debes tener en cuenta es que, <strong>la versión de Spotify Web Player en dispositivos móviles es tan limitada como su aplicación nativa</strong> y si no tienes una cuenta de Spotify Premium estarás condenado a reproducciones aleatorias, y de poseer cuenta premium no podrás descargar música para escucharla luego.</p>
+
+<h2 id="instalar-spotify-web-player-como-aplicación">Instalar Spotify Web Player como “aplicación”.</h2>
+
+<p>Como ya te lo he comentado, gracias a que Spotify Web Player está desarrollado bajo el esquema Progressive Web Apps podremos instalarlo en nuestra computadora o teléfono móvil como una “aplicación”.</p>
+
+<p>En el teléfono móvil al acceder a un sitio web desarrollado bajo este esquema te saldrá una notificación para que añadas dicha web como aplicación, pero en la computadora no sucede esto por lo que debes de añadirlo manualmente.</p>
+
+<p><strong>Para este caso usare Google Chrome como referencia</strong>, pero también puedes hacerlo en Firefox, Opera, Safari o cualquier navegador web basado en Chromium, eso si cada uno tiene su forma de hacerlo y cada navegador tiene un porcentaje de soporte respecto a las Progressive Web Apps siendo Google Chrome el que mejor soporte tiene hasta la fecha.</p>
+
+<p>Cuando estés en la página de Spotify Web Player ve al menú superior derecho de Google Chrome identificado con los tres puntos en vertical y en el menú contextual que se te abrirá debes elegir Instalar Spotify como se muestra en la siguiente animación.</p>
+
+<p><img src="https://lh3.googleusercontent.com/FCnbkRIsHG8m8mDX46ninzbDeNo55M8TkGPQmaXqTF5o7EGyZP1hWAg9039Bb-WH7Gf4mvQMT8Ce=s768" alt="Spotify Web Player" title="Spotify Web Player" /></p>
+
+<p>De inmediato podrás notar cómo desaparece la barra de direcciones del navegador web dando paso a una interfaz más limpia y con más parecido a una aplicación, de igual forma el proceso crear un icono en el escritorio y otro en el menú de inicio para que puedas acceder a Spotify “sin volver abrir el navegador web”.</p>
+
+<h2 id="pros-y-contras-de-spotify-web-player">Pros y Contras de Spotify Web Player.</h2>
+
+<p><strong>Pros</strong>.</p>
+<ul>
+  <li>Interfaz limpia.</li>
+  <li>Puedes usarlo desde cualquier lugar, y desde cualquier sistema operativo solo necesitas un navegador web.</li>
+  <li>Ahorro de espacio ya que no necesitas instalar otra aplicación.</li>
+  <li>Si tienes una cuenta gratuita puedes bloquear la publicidad dentro de Spotify con cualquier complemento del navegador web para bloquear publicidad. Pero ten cuidado con esto ya que las nuevas políticas de Spotify sancionaran al usuario que sea descubierto haciendo uso de lo antes mencionado eliminando su cuenta. Más información en el siguiente <a href="https://techcrunch.com/2019/02/08/spotify-will-now-suspend-or-terminate-accounts-it-finds-are-using-ad-blockers/" target="_blank" rel="noopener norreferer"><strong>LINK</strong></a>.</li>
+</ul>
+
+<p><strong>Contras</strong>.</p>
+<ul>
+  <li>Si no posees una cuenta de Spotify Premium estarás limitado a reproducciones aleatorias en dispositivos móviles.</li>
+  <li>No podrás usar el sin conexión ni en móviles ni en escritorio.</li>
+</ul>
+
+<p>“Ahora que ya te he puesto el banquete sobre la mesa depende de ti si quieres probarlo”.</p>
+
+<p>¿Será que Spotify Web Player es mejor que sus aplicaciones para móviles y escritorio?, ¿Tu que piensas y cual usas?, házmelo saber en los comentarios.</p>
+:ET

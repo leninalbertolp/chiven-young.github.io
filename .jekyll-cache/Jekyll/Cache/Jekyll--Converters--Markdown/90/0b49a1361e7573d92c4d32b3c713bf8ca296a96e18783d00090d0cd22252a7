@@ -1,0 +1,63 @@
+I"�<p>Simple DNSCrypt es un programa con una interfaz amigable para administrar la configuración de dnscrypt proxy en sistemas operativos Windows.</p>
+
+<p><a href="https://github.com/jedisct1/dnscrypt-proxy" target="_blank" rel="noopener norreferer"><strong>Dnscrypt proxy</strong></a> es un proxy dns flexible con soporte para protocolos de encriptación modernos como <a href="https://es.wikipedia.org/wiki/DNS_mediante_HTTPS" target="_blank" rel="noopener norreferer"><strong>DNS sobre HTTPS</strong></a> y <a href="https://dnscrypt.info/protocol/" target="_blank" rel="noopener norreferer"><strong>dnscrypt</strong></a> estos protocolos se encargan de cifrar las consultas dns que se llevan a cabo en nuestras computadora cuando por medio de un navegador web accedemos a una página web, protegiendo que dichas consultas dns sea alteradas por un tercero como nuestro ISP <em>proveedor de servicio de internet</em> o delincuentes informáticos.</p>
+
+<h2 id="por-qué-debes-cifrar-tus-consultas-dns">¿Por qué debes cifrar tus consultas DNS?</h2>
+
+<p>La pregunta se responde por si sola <strong>SEGURIDAD</strong> ya que una consulta dns no cifrada es blanco para los delincuentes informáticos que aprovechando esta brecha llevan a cabo ataques de <a href="https://en.wikipedia.org/wiki/DNS_spoofing" target="_blank" rel="noopener norreferer"><strong>DNS Spoofing</strong></a> o <a href="https://es.wikipedia.org/wiki/Envenenamiento_de_DNS" target="_blank" rel="noopener norreferer"><strong>Envenenamiento de la Caché de DNS</strong></a> un método que modifica la consulta dns original para por ejemplo redirigir dicha consulta a otro sitio de aspecto similar para obtener los datos de la víctima, a este otro ataque se le conoce como <a href="https://es.wikipedia.org/wiki/Ataque_de_intermediario" target="_blank" rel="noopener norreferer"><strong>Man in the Middle</strong></a> o hombre en el medio en español.</p>
+
+<p>Recientemente en Venezuela se llevó a cabo un ataque de DNS Spoofing por parte de CANTV/Movilnet la principal proveedora de servicio de internet del país en mano del régimen actual.</p>
+
+<p>Este evento fue documentado por <a href="https://vesinfiltro.com/" target="_blank" rel="noopener norreferer"><strong>VE SIN FILTRO</strong></a> y publicado en documento ejecutivo que puedes leer en <a href="https://vesinfiltro.com/noticias/Phishing_impulsado_por_gobierno_de_Venezuela/" target="_blank" rel="noopener norreferer"><strong>Español</strong></a> e <a href="https://vesinfiltro.com/noticias/Phishing_by_Venezuelan_government_targets_activists/" target="_blank" rel="noopener norreferer"><strong>Inglés</strong></a>.</p>
+
+<h2 id="configurar-dnscrypt-proxy-en-windows-con-simple-dnscrypt">Configurar DNSCrypt-Proxy en Windows con Simple DNSCrypt.</h2>
+
+<p>LLevar el proceso de configuración de dnscrypt proxy tal cual se explica en su documentación oficial le pondría los pelos de punta a un usuario común y corriente debido a la exigencia técnica que este requiere y es ahí donde entra en juego Simple DNSCrypt.</p>
+
+<p>Con Simple DNSCrypt nos podemos olvidar del tecnicismo y centrarnos en una interfaz visual amigable para dnscrypt proxy.</p>
+
+<p>Simple DNSCrypt es un programa gratuito y open source (<em>código abierto</em>) para windows que con unos simples pasos nos permite cifrar nuestras consultas dns.</p>
+
+<p>Lo primero que hay que hacer es descargar Simple DNSCrypt desde su <a href="https://simplednscrypt.org/" target="_blank" rel="noopener norreferer"><strong>Página Oficial</strong></a> donde tienes instaladores para versiones de windows de 64 bits y 32 bits así que elige la versión adecuada.</p>
+
+<p><img src="https://lh3.googleusercontent.com/xTIudnlye9jPDlYxAvilYuwVKhw6xXPoCrDA2LNelb4uYYcjOHV5XZFnXBgkwQuX6C0hwquuytTP=s768" alt="Descargar Simple DNSCrypt Windows" title="Descargar Simple DNSCrypt Windows" /></p>
+
+<p>Si ya has instalado programas en windows entonces no tendrás dificultad alguna para instalar Simple DNSCrypt en tu computadora, el proceso es similar al de cualquier otro con los característicos siguiente, siguiente, siguiente o next, next, next.</p>
+
+<p>Al iniciar el programa te encontrarás con una interfaz de navegación por pestañas desde donde podrás gestionar las configuraciones.</p>
+
+<p><img src="https://lh3.googleusercontent.com/aEUStvubi95vKF6PQxZQW2GViHJ8lVUGp0BHTz5TQPzBR6wXpgconLJ1kSnqwIx2ndKEgaJQokVF=s768" alt="Iniciar Simple DNSCrypt en Windows" title="Iniciar Simple DNSCrypt en Windows" /></p>
+
+<p>En la pestaña de <strong>menú principal</strong> basta con dejar seleccionas las opciones del apartado de <strong>configuración</strong> tal cual están que en resumen sería.</p>
+
+<ul>
+  <li>IPv4: Protocolo de interconexión de internet.</li>
+  <li>DNSSEC: Extensiones de seguridad del sistema de nombres de dominio.</li>
+  <li>Sin registro de actividad: Servidores dns que no guarden registro de las consultas dns, es decir las páginas web que visitas.</li>
+  <li>Sin filtros: Servidores que no apliquen filtros arbitrarios ejemplo: bloqueadores de anuncios como es el caso de los dns de Adguard.</li>
+  <li>DNSCrypt: Solo servidores dns con este protocolo de cifrado.</li>
+  <li>DNS sobre HTTPS: Solo servidores dns con este protocolo de cifrado.</li>
+</ul>
+
+<p>En el apartado <strong>servicio</strong> clickea sobre el switch para instalar el servicio que pone en marcha la encriptación.</p>
+
+<p>Y en <strong>tarjeta de red</strong> debes seleccionar la tarjeta de red que transmite la conexión a internet.</p>
+
+<p>Con esta simple configuración bastaría para estar protegido, pero si quieres ir un poco más allá y seleccionar por ejemplo un servidor dns en específico como es mi caso entonces ve a la pestaña <strong>resolutores</strong> para hacerlo.</p>
+
+<p><img src="https://lh3.googleusercontent.com/kE8X7DPt_gTNZnq1v-mLd-IBoVADLGgMQ-vtfFskzorerSjSOQDF2aZ0DGTSqS1V-k9YRpyC4d9j=s768" alt="Resolutores Simple DNSCrypt" title="Resolutores Simple DNSCrypt" /></p>
+
+<p>En la configuración por defecto viene habilitada la opción de <strong>modo automático</strong> donde el programa seleccionará el servidor dns más rápido automáticamente según su criterio.</p>
+
+<p>Yo elegí los <a href="https://1.1.1.1/es/" target="_blank" rel="noopener norreferer"><strong>dns de cloudflare</strong></a> por las bondades que brinda, si tu quieres elegir ese mismo o cualquier otro o varios si así lo deseas basta con clickear sobre el servidor dns y hacer click sobre aplicar ajustes.</p>
+
+<p>También tienes otras opciones interesantes por si quieres aventurarte aún más allá. Por ejemplo en <strong>ajustes avanzados</strong> puedes configurar tu computadora como un resolutor dns global y actúe como puerta de enlace para tus otros equipos como smartphone o laptop.</p>
+
+<p>Y en el apartado de <strong>lista negra de dominios</strong> puedes bloquear dominios o páginas web a los que no quieras que se accedan desde tu computadora por ejemplo bloquear páginas web con contenido para adultos para que los más pequeños de la casa no tengan acceso a ellas.</p>
+
+<p>Opciones interesantes que hasta ahora no me he visto en la necesidad de utilizar por lo que corre de cuenta aventurarte en ellas.</p>
+
+<p>En el caso que ya no quieres utilizar Simple DNSCrypt (<em>no veo el por que</em>) su desinstalación es aún más fácil, para ello ve a Panel de Control, luego a Programas y características y busca Simple DNSCrypt y lo demás es cuento.</p>
+
+<p>¿<strong>Qué tal te a parecido este post</strong>? ¿<strong>Ya conocías Simple DNSCrypt y lo importante que es encriptar tus consultas dns</strong>?</p>
+:ET

@@ -1,0 +1,40 @@
+I"*<p>El popular software de compresión de archivos para Windows <strong>WinRAR con más de 500 millones de usuarios</strong> a sus espalda está en la mira de los delincuentes informáticos debido a una vulnerabilidad crítica de <strong>Recorrido de Ruta Absoluta</strong>.</p>
+
+<p>Esta brecha de seguridad compromete <strong>todas las versiones de WinRAR de los últimos 19 años</strong> y aunque la compañía lanzó una actualización del programa donde se corregía el fallo, <strong>esta sigue siendo explotada activamente por los delincuentes informáticos</strong> ya que <strong>WinRAR no cuenta con un sistema de actualizaciones automáticas</strong>.</p>
+
+<h2 id="500-millones-de-usuarios-de-winrar-en-todo-el-mundo-expuestos-a-un-fallo-de-seguridad">500 Millones de usuarios de WinRAR en todo el mundo expuestos a un fallo de seguridad.</h2>
+
+<p>Así es, <strong>toda la base de usuarios de WinRAR están expuestos a esta vulnerabilidad</strong> que se cuenta casi desde los propios inicios del Software, debido a que WinRAR no cuenta con actualizaciones automáticas que instale la nueva versión que soluciona el problema.</p>
+
+<p>Si eres usuario de WinRAR tendrás que <a href="https://www.win-rar.com/start.html?&amp;L=6" target="_blank" rel="noopener noreferrer"><strong>descargar e instalar manualmente la versión 5.70</strong></a> para vacunarte ante los peligros que representa este fallo de seguridad.</p>
+
+<p>Otra de las cosas que puedes hacer es desinstalar WinRAR y <a href="https://www.7-zip.org/" target="_blank" rel="noopener noreferrer"><strong>reemplazarlo por 7Zip</strong></a> un programa tan potente como WinRAR pero <strong>gratuito y Open Source</strong>.</p>
+
+<h2 id="donde-reside-la-vulnerabilidad-crítica">¿Donde reside la vulnerabilidad crítica?.</h2>
+
+<p>Los expertos de Check Point dieron detalles técnico sobre la vulnerabilidad explicando que la falla reside en la biblioteca de tercero <strong>UNACEV2.DLL</strong> utilizada para descomprimir archivos con <strong>extensión ACE</strong> (.ace), ACE es un formato de fichero de archivo para compresión de datos.</p>
+
+<iframe width="768" height="450" src="https://www.youtube-nocookie.com/embed/R2qcBWJzHMo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+
+<p>Ya que WinRAR detecta el formato por el contenido del archivo y no por la <strong>extensión .ace</strong>, los delincuentes informáticos pueden perfectamente cambiar la <strong>extensión a .rar</strong> para que “se vea normal” y poder llevar a cabo la infección del virus.</p>
+
+<p>Debido a que la vulnerabilidad es el error del <strong>Recorrido de Ruta Absoluta</strong> el atacante puede extraer un archivo infectado (virus) en la carpeta de inicio de Windows.</p>
+
+<h2 id="cómo-se-está-aprovechando-este-fallo-de-seguridad-en-winrar">Cómo se está aprovechando este fallo de seguridad en WinRAR.</h2>
+
+<p>Como ya lo comente, WinRaR no cuenta con un sistema de actualizaciones automática, por lo que para poder descargar la actualización que corrige la vulnerabilidad primero debes estar informado de dicho fallo (ahora ya lo estas 😉) y segundo descargar la actualización manualmente.</p>
+
+<p>he aquí donde los delincuentes informáticos entran en acción ya que la gran mayoría de esos usuarios ni siquiera sabrán qué su software de descompresión WinRaR tiene un fallo que compromete su seguridad, y seguirán usándolo como si nada pasara.</p>
+
+<p>El principal señuelo es la música, se pudo conocer que el <strong>exitoso álbum de Ariana Grande “Thank U, Next”</strong> se distribuye con el nombre de archivo “<strong>Ariana_Grande-thank_u, _next (2019) _ [320] .rar</strong>” en sitios de descargas piratas, este archivo viene con la vulnerabilidad de WinRaR explotada, por lo que al descomprimirlo tu sistema queda infectado.</p>
+
+<p>Pero no te engañes, los delincuentes informáticos no solo utilizaran la música para aprovechar esta vulnerabilidad.</p>
+
+<p>A la fecha de este artículo solo <a href="https://www.virustotal.com/#/file/a1c06018b4e331f95a0e33b47f0faa5cb6a084d15fec30772923269669f4bc91/detection" target="_blank" rel="noopener noreferrer"><strong>30 motores de antivirus han detectado la amenaza</strong></a>.</p>
+
+<p>Quedas advertido, si usas WinRAR ve ya ya ya a actualizarlo.</p>
+
+<p>¿Qué notición no? yo me libre porque desde hace varios años utilizo 7zip 😓, ¿y tú qué software de descompresión utilizas?</p>
+
+<p>Visto en: <a href="https://thehackernews.com" target="_blank" rel="noopener noreferrer"><strong>The Hacker News</strong>.</a></p>
+:ET

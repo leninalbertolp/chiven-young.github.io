@@ -1,0 +1,26 @@
+I"$<p>Han pasado tres años desde que el gigante del software Microsoft lanzará visual studio code, el anuncio se hizo con bombos y platillos en la conferencia para desarrolladores build 2015 y “dejó a medio mundo con la boca abierta”, no por el software como tal, si no, por todo lo que estaba detrás de él, visual studio code sería gratuito y open source.</p>
+
+<p>“Quien en su sano juicio pensaría que los de Redmond serían capaz de tal hito, un programa gratuito y open source, hasta entonces eso era un chiste.”</p>
+
+<p>2018 y visual studio code no ha hecho más que crecer y mejorar, cosa que lo ha llevado a consolidarse como el editor de código más utilizado por los desarrolladores, no lo digo yo, así lo refleja la <a href="https://insights.stackoverflow.com/survey/2018/#development-environments-and-tools" target="_blank" rel="noopener noreferrer"><strong>encuesta para desarrolladores 2018</strong></a> de Stackoverflow.</p>
+
+<h2 id="un-poco-de-historia">Un poco de historia</h2>
+
+<p>A finales de 2013 “hubo una crisis en cuanto a editores de código se refiere”, no porque hicieran falta más de los que ya existiese para ese entonces, si no porque el editor que los gobernaba a todos había entrado en un lapso de hibernación profundo donde las actualizaciones ya no existían pero abundaban los bugs y crasheos, me refiero a <a href="https://www.sublimetext.com/" target="_blank" rel="noopener noreferrer"><strong>Sublime Text</strong></a>.</p>
+
+<p>Sublime text tuvo hasta diciembre de 2013 actualizaciones regulares cada mes, cargadas de funcionalidades y correcciones de errores, y de allí en adelante entró en un letargo del cual le costó salir, llevándole a perder el podio que ostentaba para ese entonces.</p>
+
+<p>En febrero de 2014 Github lanza <a href="https://atom.io/" target="_blank" rel="noopener noreferrer"><strong>atom</strong></a>, un editor gratuito y open source y a finales de ese mismo año adobe lanza <a href="http://brackets.io/" target="_blank" rel="noopener noreferrer"><strong>brackets</strong></a> y al igual que atom también sería gratuito y open source, ambos llegaron para ocupar el espacio vacío que estaba dejando sublime text pero estos no terminaron de enamorar a las masas.</p>
+
+<p>2015 el año del debut de visual studio code, atom había tomado la delantera pero era, no se si aun, una tortuga para abrir y devorador de recursos al mas puro estilo de antiguas versiones de google chrome, luego tocaba buscar e instalar los paquetes mínimos para dejarlo medianamente a punto o a gusto, venga que esto último que comento ya lo veníamos haciendo en sublime text y no nos quitaba más de diez minutos.</p>
+
+<h2 id="que-hizo-que-visual-studio-code-sea-hoy-día-el-editor-más-usado">Que hizo que visual studio code sea hoy día el editor más usado</h2>
+
+<p>A título personal, visual studio code supo hacer su jugada, descargas, instalas y por defecto ya tienes integrado una terminal, intellisense, emmet, depurador de código, integración con git y github lo mínimo necesario para empezar a trabajar, todas ellas eran características que se echaban de menos en los otros editores de código, aunque se podían instalar mediante plugins de tercero lo ideal eran que ya vinieran por defecto. Creo que allí estuvo la pega por parte de visual studio code.</p>
+
+<p>Otra cosa que supo hacer el team de visual studio code en comparación con los de atom, fue la optimización de <a href="https://electronjs.org/" target="_blank" rel="noopener noreferrer"><strong>electron</strong></a>, el framework javascript para crear aplicaciones de escritorio multiplataforma de un solo jalón.</p>
+
+<p>Por lo demás no hay mucho más que contar (eso creo), es multiplataforma, tiene themes y plugins a granel incluyendo el mío <a href="https://marketplace.visualstudio.com/items?itemName=leninp.materialize-snippets" target="_blank" rel="noopener noreferrer"><strong>Materializecss Snippets</strong></a> 😉</p>
+
+<p>¿Y tú, ya utilizas visual studio code? o tienes otro editor preferido, si es así házmelo saber en los comentarios para yo también probarlo.</p>
+:ET

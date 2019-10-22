@@ -1,0 +1,56 @@
+I"�<p>“Microsoft ama a linux” fueron las palabras de Satya Nadella CEO de microsoft en una conferencia sobre cloud, de esta manera linux pasaría de ser un “cáncer” palabras de su antiguo CEO Steve Ballmer, a parte fundamental de sus servicios en la nube Windows Azure.</p>
+
+<p>Así comenzó el romance entre microsoft y linux, hoy día microsoft es uno de los mayores contribuidores del open source, miembro platino de la linux foundation y dueño de github, pero pasemos a lo que vinimos porque estos son temas para otro topic.</p>
+
+<h2 id="qué-es-windows-subsystem-for-linux-o-wsl">Qué es Windows Subsystem for Linux o WSL.</h2>
+
+<p>Es un espacio en windows que provee una interfaz que simula un kernel de Linux (sin contener código de Linux propiamente dicho),​ el cual puede correr aplicaciones de espacio de usuario GNU, por ejemplo, una instalación base de Ubuntu, openSUSE,​ SUSE Linux Enterprise Server,​ Debian​ y Kali Linux. Dicho entorno puede contener una shell Bash, junto con ejecutables de línea de comandos GNU/Linux nativos (sed, awk, etc.), lenguajes de programación (Ruby, Python, etc.), e incluso algunas aplicaciones gráficas (con la ayuda de un servidor X11).</p>
+
+<h2 id="lo-que-necesitas-saber-sobre-windows-subsystem-for-linux">Lo que necesitas saber sobre Windows Subsystem for Linux.</h2>
+
+<p>Técnicamente esto no es linux, linux es el corazón de las distribuciones que se basan en este kernel, lo que nos permite WSL es tener un entorno empotrado por llamarlo de alguna manera, que nos permite ejecutar el shell bash y los binarios que normalmente corremos en ubuntu o en cualquier otra distro linux exceptuando aquellas con interfaz gráficas.</p>
+
+<hr />
+
+<p><strong>También te podría interesa</strong>:</p>
+
+<p><a href="/instalar-zsh-ohmyzsh-windows10"><strong>Instalar ZSH y Oh My ZSH en Windows</strong></a></p>
+
+<p><a href="/cambiar-idioma-bash-ubuntu-windows10"><strong>Cambiar idioma al bash de Ubuntu en Windows</strong></a></p>
+
+<hr />
+
+<h2 id="habilitar-windows-subsystem-for-linux">Habilitar Windows Subsystem for Linux.</h2>
+
+<p>Lo primero que debes saber es que WSL solo funciona en arquitectura de 64 bits, si tu sistema es de 32 bits no podrás usar esta característica.</p>
+
+<p><img src="https://lh3.googleusercontent.com/pp8JEROWUQjSnyrHxWYhucZ-KOolviH1Lwv_Gt4zZKNiI87ePtvXBrzzbgL8PouCluJfXsaAnjwI=s768" alt="Características Windows WSL" /></p>
+
+<p>En cortana escribe <code class="highlighter-rouge">activar o desactivar las características de windows</code>, y en la ventana que se abre busca y activa <code class="highlighter-rouge">Subsistema de Windows para Linux</code> al activar esta opción te saldrá otra ventana donde te indica que se descargara esta característica, cuando finalice te pedirá que reinicies el sistema para completar la instalación.</p>
+
+<p><img src="https://lh3.googleusercontent.com/_MD9y6jio_ts_AjrC0TsvOgcXEwRIBCMZtJsWlM68WXnhg_MAbMdlwdIrwJtvpYQMLmcXefSWHgo=s768" alt="Ubuntu Windowa Subsystem for Linux" /></p>
+
+<p>Ya tenemos instalado el subsistema ahora nos falta una distro, para ello abre la microsoft store y busca ubuntu, o elige la distro de tu preferencia.</p>
+
+<p>Luego que se descargue busca en cortana ubuntu y ejecuta el programa, se te abrirá la consola de comando que en este caso será el shell de ubuntu y dirá que necesita descargar algunas cosas, luego de eso te pedirá qué reinicies el sistema para completar la instalación.</p>
+
+<p><img src="https://lh3.googleusercontent.com/ozlopVzCEZ0XQ0UdxPA7UJPQOgUjJ7TMA1p1tp4AjvEveK_cs47N1ynroG33NsLpWmBjVypZpT7S=s768" alt="Ubuntu Shell Windows Subsystem for linux" /></p>
+
+<p>Después del reinicio toca abrir nuevamente ubuntu para terminar el proceso de configuración, en el que te pedirá que introduzcas un nombre y contraseña para crear el usuario.</p>
+
+<p><img src="https://lh3.googleusercontent.com/vpxG-b6c07GsLmy88DlBggafyJ6oAQh4b9GJqwytU_f3sLF3uHN5yORcHJLcdpq8UjrKeQ_xU0wY=s768" alt="Sudo apt update ubuntu windows subsystem for linux" /></p>
+
+<p>Lo siguiente que debes hacer es ejecutar el siguiente comando <code class="highlighter-rouge">sudo apt update</code> para actualizar la lista de paquetes y a continuación <code class="highlighter-rouge">sudo apt upgrade</code> para actualizar aquellos paquetes que sean necesarios.</p>
+
+<p><strong>Nota</strong>: ejecuta periódicamente <code class="highlighter-rouge">sudo apt update</code> y <code class="highlighter-rouge">sudo apt upgrade</code> para mantener tu subsistema actualizado.</p>
+
+<h2 id="y-ahora-qué">Y, ¿ahora qué?</h2>
+
+<p>Pues nada, “a convertirse en hacker”. 🤪</p>
+
+<p>Ya te había comentado que no se pueden ejecutar aplicaciones con interfaz gráfica, pues no es del todo cierto ya que si lo puedes hacer pero mediante servidores gráficos como <a href="https://sourceforge.net/projects/xming/" target="_blank" rel="noopener noreferrer">Xming X</a> pero de igual forma con sus limitantes a mayor complejidad de la aplicación mayor sera la probabilidad de que no funcione debido a que el subsistema de windows para linux está pensado solo para correr aplicaciones que se ejecuten en consola y <a href="https://blog.desdelinux.net/las-mejores-aplicaciones-para-usar-desde-el-terminal/" target="_blank" rel="noopener noreferrer">aquí tienes una buena lista de ellas</a> por si quieres experimentar.</p>
+
+<p>Lo que sí puedes instalar sin problemas son herramientas de desarrollo que funcionan mejor en linux o mac que en windows, por ejemplo ruby.</p>
+
+<p>Nos leemos en la próxima. Happy dev 👨‍💻</p>
+:ET

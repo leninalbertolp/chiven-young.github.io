@@ -1,0 +1,122 @@
+I">5<p>Que pasa coders, en este pequeño post te mostrare el setup que tengo actualmente en visual studio code (vscode para los amigos), los theme, extensiones y un poco de mi setting.js. Nada más así que comencemos.</p>
+
+<h2 id="vscode-themes">VSCode Themes.</h2>
+
+<p><img src="https://raw.githubusercontent.com/Binaryify/OneDark-Pro/master/static/screenshot1.png" alt="One Dark Pro Visual Studio Code Theme" width="768" /></p>
+
+<p>Desde que estoy usando este editor de código muchos han sido los temas visuales que han desfilado frente a mis ojos, de ellos puedo nombrarte algunos de los siguientes: <a href="https://marketplace.visualstudio.com/items?itemName=dracula-theme.theme-dracula" target="_blank" rel="noopener noreferrer">Dracula</a> el de la old school, <a href="https://marketplace.visualstudio.com/items?itemName=Equinusocio.vsc-material-theme" target="_blank" rel="noopener noreferrer">material theme</a> este fue muy popular en sublime text, <a href="https://marketplace.visualstudio.com/items?itemName=arcticicestudio.nord-visual-studio-code" target="_blank" rel="noopener noreferrer">nord</a>, <a href="https://marketplace.visualstudio.com/items?itemName=tinkertrain.theme-panda" target="_blank" rel="noopener noreferrer">panda theme</a> y <a href="https://marketplace.visualstudio.com/items?itemName=teabyii.ayu" target="_blank" rel="noopener noreferrer">ayu</a>, pero el que mejor se ha adaptado a mis exquisitos y refinados gusto (sarcasmo) ha sido <a href="https://marketplace.visualstudio.com/items?itemName=zhuangtongfa.Material-theme" target="_blank" rel="noopener noreferrer">one dark pro</a>, así que este es el que estoy usando actualmente junto al pack de iconos <a href="https://marketplace.visualstudio.com/items?itemName=robertohuertasm.vscode-icons" target="_blank" rel="noopener noreferrer">Vscode Icons</a>.</p>
+
+<h2 id="vscode-extensions">VSCode Extensions.</h2>
+
+<p>Los plugins que utilizo en vscode son muy pocos y están enfocado al front-end el workspace en el que me desenvuelvo. Nada del otro mundo. 😉</p>
+
+<h3 id="materializecss-snippets">Materializecss Snippets.</h3>
+
+<p><img src="https://github.com/leninalbertolp/materialize-snippets-vscode/raw/master/images/mz-example.jpg" alt="Materialize Snippets Visual studio code plugin" width="768" /></p>
+
+<p>Como no podía ser de otra manera comienzo con el plugin de la casa, materialize snippets es una colección de bloques de código del framework <a href="https://materializecss.com/" target="_blank" rel="noopener noreferrer">materialize</a> y nació como una necesidad al trabajar en un proyecto para un cliente basado en este framework.</p>
+
+<p><a href="https://marketplace.visualstudio.com/items?itemName=leninp.materialize-snippets" target="_blank" rel="noopener"><strong>Ver extensión</strong></a></p>
+
+<h3 id="auto-close-tag">Auto close tag.</h3>
+
+<p><img src="https://github.com/formulahendry/vscode-auto-close-tag/raw/master/images/usage.gif" alt="Auto close tag" width="768" /></p>
+
+<p>Este plugin inserta automáticamente la etiqueta de cierre, cosa que vscode posee desde la versión 1.16 pero solo para HTML, Handlebars y Razor, así que este plugin añade soporte para otros tipos de extensiones como javascript, php, typescript entre otros.</p>
+
+<p><a href="https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-close-tag" target="_blank" rel="noopener"><strong>Ver extensión</strong></a></p>
+
+<h3 id="auto-rename-tag">Auto rename tag.</h3>
+
+<p><img src="https://github.com/formulahendry/vscode-auto-rename-tag/raw/master/images/usage.gif" alt="Auto rename tag" width="768" /></p>
+
+<p>Como puedes apreciar en la imagen, este plugin te permite renombrar el par de etiqueta html de un solo jalón.</p>
+
+<p><a href="https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag" target="_blank" rel="noopener"><strong>Ver extensión</strong></a></p>
+
+<h3 id="auto-file-name">Auto file name.</h3>
+
+<p><img src="https://trello-attachments.s3.amazonaws.com/56c86fd76bf599f4fa62ee7f/1152x720/4b439177b0fb1c04af133aa733ba2a09/Untitled.gif" alt="Auto file name" width="768" /></p>
+
+<p>Vscode ya cuenta con esta función de forma nativa pero solo para archivos html y css, así que este plugin viene a completar el binomio.</p>
+
+<p>Auto file name navega por las carpetas de tu proyecto y te ayuda a completar la ruta para la inserción de imágenes o de otros archivos.</p>
+
+<p><a href="https://marketplace.visualstudio.com/items?itemName=JerryHong.autofilename" target="_blank" rel="noopener"><strong>Ver extensión</strong></a></p>
+
+<h3 id="beautify">Beautify.</h3>
+
+<p>Un plugin para embellecer código html, css, scss, json y javascript, yo lo uso mucho para formatear los archivos de otros coders acorde a mi workspace.</p>
+
+<p><a href="https://marketplace.visualstudio.com/items?itemName=HookyQR.beautify" target="_blank" rel="noopener"><strong>Ver extensión</strong></a></p>
+
+<h3 id="intellisense-for-css-class-name-in-html">IntelliSense for CSS class name in HTML.</h3>
+
+<p><img src="https://i.imgur.com/5crMfTj.gif" alt="IntelliSense for CSS class names in HTML" width="768" /></p>
+
+<p>Como puedes apreciar en la imagen este plugin de vscode recolecta y almacena en cache los nombres de las clases e id de tus archivos css para luego ayudarte a insertarlos en tu html, muy útil si trabajas con framework css, funciona tanto para archivos locales como para los enlaces de CDN.</p>
+
+<p><a href="https://marketplace.visualstudio.com/items?itemName=Zignd.html-css-class-completion" target="_blank" rel="noopener"><strong>Ver extensión</strong></a></p>
+
+<h3 id="spell-right">Spell right.</h3>
+
+<p><img src="https://raw.githubusercontent.com/bartosz-antosik/vscode-spellright/master/media/screenshot-documents.png" alt="Code Spell Checker" width="768" /></p>
+
+<p>“Quien esté libre de pecado que arroje la primera piedra”. Un corrector ortográfico para evitar esos errores comunes que solemos cometer cuando escribimos.</p>
+
+<p><a href="https://marketplace.visualstudio.com/items?itemName=ban.spellright" target="_blank" rel="noopener"><strong>Ver extensión</strong></a></p>
+
+<h3 id="jekyll-syntax-support-jekyll-snippets">Jekyll syntax support, jekyll snippets.</h3>
+
+<p>Ahora que he dado el salto de wordpress a jekyll estos plugins forman parte de mi stack de desarrollo. Este par de extensión añade soporte para el resaltado de la sintaxis de jekyll.</p>
+
+<p><a href="https://marketplace.visualstudio.com/items?itemName=ginfuru.ginfuru-vscode-jekyll-syntax" target="_blank" rel="noopener"><strong>Jekyll sintax</strong></a> - <a href="https://marketplace.visualstudio.com/items?itemName=ginfuru.vscode-jekyll-snippets" target="_blank" rel="noopener"><strong>Jekyll Snippets</strong></a></p>
+
+<h3 id="live-server">Live server.</h3>
+
+<p><img src="https://github.com/ritwickdey/vscode-live-server/raw/master/images/Screenshot/vscode-live-server-animated-demo.gif" alt="**Live server**" width="768" /></p>
+
+<p>Un potente servidor local con auto refresh incluido.</p>
+
+<p><a href="https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer" target="_blank" rel="noopener"><strong>Ver extensión</strong></a></p>
+
+<h2 id="algunas-de-las-modificaciones-en-mi-settingsjs">Algunas de las modificaciones en mi settings.js</h2>
+
+<figure class="highlight"><pre><code class="language-json" data-lang="json"><span class="nl">"editor.fontFamily"</span><span class="p">:</span><span class="w"> </span><span class="s2">"'Menlo, Consolas, 'Courier New', monospace"</span><span class="err">,</span><span class="w">
+</span><span class="nl">"editor.fontSize"</span><span class="p">:</span><span class="w"> </span><span class="mf">16.8</span><span class="err">,</span><span class="w">
+</span><span class="nl">"editor.letterSpacing"</span><span class="p">:</span><span class="w"> </span><span class="mf">0.5</span><span class="err">,</span><span class="w">
+</span><span class="nl">"editor.lineHeight"</span><span class="p">:</span><span class="w"> </span><span class="mi">24</span><span class="err">,</span><span class="w">
+</span><span class="nl">"editor.fontWeight"</span><span class="p">:</span><span class="w"> </span><span class="s2">"normal"</span><span class="err">,</span><span class="w">
+</span><span class="nl">"editor.tabSize"</span><span class="p">:</span><span class="w"> </span><span class="mi">2</span><span class="err">,</span><span class="w">
+</span><span class="nl">"editor.detectIndentation"</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="err">,</span><span class="w">
+</span><span class="nl">"editor.fontLigatures"</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="err">,</span><span class="w">
+</span><span class="nl">"editor.renderWhitespace"</span><span class="p">:</span><span class="w"> </span><span class="s2">"boundary"</span><span class="err">,</span><span class="w">
+</span><span class="nl">"editor.wordWrap"</span><span class="p">:</span><span class="w"> </span><span class="s2">"on"</span><span class="err">,</span><span class="w">
+</span><span class="nl">"editor.minimap.enabled"</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="err">,</span><span class="w">
+</span><span class="nl">"editor.minimap.renderCharacters"</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="err">,</span><span class="w">
+</span><span class="nl">"editor.wrappingIndent"</span><span class="p">:</span><span class="w"> </span><span class="s2">"same"</span><span class="err">,</span><span class="w">
+</span><span class="nl">"editor.renderControlCharacters"</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="err">,</span><span class="w">
+</span><span class="nl">"editor.renderIndentGuides"</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="err">,</span><span class="w">
+</span><span class="nl">"editor.dragAndDrop"</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="err">,</span><span class="w">
+</span><span class="nl">"telemetry.enableTelemetry"</span><span class="p">:</span><span class="w"> </span><span class="kc">false</span><span class="err">,</span><span class="w">
+</span><span class="nl">"telemetry.enableCrashReporter"</span><span class="p">:</span><span class="w"> </span><span class="kc">false</span><span class="err">,</span><span class="w">
+</span><span class="nl">"editor.quickSuggestions"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+  </span><span class="nl">"other"</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"comments"</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"strings"</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="w">
+</span><span class="p">}</span><span class="err">,</span><span class="w">
+</span><span class="nl">"files.autoSave"</span><span class="p">:</span><span class="w"> </span><span class="s2">"off"</span><span class="err">,</span><span class="w">
+</span><span class="nl">"editor.multiCursorModifier"</span><span class="p">:</span><span class="w"> </span><span class="s2">"ctrlCmd"</span><span class="err">,</span><span class="w">
+</span><span class="nl">"extensions.autoUpdate"</span><span class="p">:</span><span class="w"> </span><span class="kc">false</span><span class="err">,</span><span class="w">
+</span><span class="nl">"editor.smoothScrolling"</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="err">,</span><span class="w">
+</span><span class="nl">"emmet.triggerExpansionOnTab"</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="err">,</span><span class="w">
+</span><span class="nl">"emmet.showSuggestionsAsSnippets"</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="err">,</span><span class="w">
+</span><span class="nl">"editor.snippetSuggestions"</span><span class="p">:</span><span class="w"> </span><span class="s2">"top"</span><span class="err">,</span><span class="w">
+</span><span class="nl">"auto-close-tag.SublimeText3Mode"</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="err">,</span><span class="w">
+</span><span class="nl">"window.zoomLevel"</span><span class="p">:</span><span class="w"> </span><span class="mi">0</span><span class="err">,</span><span class="w">
+</span><span class="nl">"git.autofetch"</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="err">,</span><span class="w">
+</span><span class="nl">"terminal.integrated.shell.windows"</span><span class="p">:</span><span class="w"> </span><span class="s2">"C:</span><span class="se">\\</span><span class="s2">Windows</span><span class="se">\\</span><span class="s2">System32</span><span class="se">\\</span><span class="s2">bash.exe"</span><span class="err">,</span><span class="w">
+</span><span class="nl">"markdown.preview.fontSize"</span><span class="p">:</span><span class="w"> </span><span class="mi">15</span></code></pre></figure>
+
+<p>Con esto último vamos llegando al final de este post, Y tu ¿Qué plugins y themes utilizas en vscode? me gustaría que los mencionaras en los comentarios.</p>
+:ET

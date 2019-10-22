@@ -1,0 +1,43 @@
+I"�<p>Operator mono es una fuente monoespaciada caracterizada por incluir un tipo de letra cursiva que le dan un toque diferente al código que escribimos, bueno realmente esto sería lo más superficial de esta fuente ya que su creador detalla los procesos de su creación en este <a href="https://www.typography.com/blog/introducing-operator" target="_blank" rel="noopener noreferrer">post</a>.</p>
+
+<p>Una fuente muy bonita y amigable a la lectura pero con un valor de $200 que lleva a muchos a cuestionarse si vale la pena soltar tantos trump por una fuente.</p>
+
+<p>Si usted fue una de esas personas que valoro el trabajo que conlleva crear una fuente y la compro, pues entonces has llegado al lugar indicado porque te mostrare a como configurarla sin mucho lío en cualquier theme de vscode para que pueda mostrar el tipo de letra cursiva.</p>
+
+<p>Presiona la combinación de tecla <code class="highlighter-rouge">Ctrl</code>+<code class="highlighter-rouge">,</code> para abrir la configuración de usuario y establece operator mono como fuente principal de la siguiente manera <code class="highlighter-rouge">"editor.fontFamily": "'Operator Mono', Consolas, 'Courier New', monospace",</code>.</p>
+
+<p>A continuación copia y pega el siguiente bloque de código en tu archivo de configuración, y reemplazar donde dice <code class="highlighter-rouge">Nombre del theme</code> por el nombre del theme que estés utilizando.</p>
+
+<figure class="highlight"><pre><code class="language-json" data-lang="json"><span class="nl">"editor.tokenColorCustomizations"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+  </span><span class="nl">"[Nombre del theme]"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+    </span><span class="nl">"textMateRules"</span><span class="p">:</span><span class="w"> </span><span class="p">[{</span><span class="w">
+      </span><span class="nl">"scope"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w">
+        </span><span class="s2">"comment"</span><span class="p">,</span><span class="w">
+        </span><span class="s2">"punctuation.definition.comment"</span><span class="p">,</span><span class="w">
+        </span><span class="s2">"comment.block"</span><span class="p">,</span><span class="w">
+        </span><span class="s2">"comment.line"</span><span class="p">,</span><span class="w">
+        </span><span class="s2">"comment.block.documentation"</span><span class="p">,</span><span class="w">
+        </span><span class="s2">"comment.line.double-slash"</span><span class="p">,</span><span class="w">
+        </span><span class="s2">"entity.other.attribute-name"</span><span class="p">,</span><span class="w">
+        </span><span class="s2">"entity.other.attribute-name.html"</span><span class="p">,</span><span class="w">
+        </span><span class="s2">"markup.italic"</span><span class="p">,</span><span class="w">
+        </span><span class="s2">"entity.other.attribute-name.id"</span><span class="p">,</span><span class="w">
+        </span><span class="s2">"entity.other.attribute-name.class.css"</span><span class="p">,</span><span class="w">
+        </span><span class="s2">"entity.other.attribute-name.tag.jade"</span><span class="p">,</span><span class="w">
+        </span><span class="s2">"entity.other.attribute-name.class.jade"</span><span class="p">,</span><span class="w">
+        </span><span class="s2">"entity.other.attribute-name.id.jade"</span><span class="p">,</span><span class="w">
+        </span><span class="s2">"keyword.control"</span><span class="p">,</span><span class="w">
+        </span><span class="s2">"storage"</span><span class="p">,</span><span class="w">
+        </span><span class="s2">"emphasis"</span><span class="p">,</span><span class="w">
+        </span><span class="s2">"variable.language"</span><span class="w">
+      </span><span class="p">],</span><span class="w">
+
+      </span><span class="nl">"settings"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+        </span><span class="nl">"fontStyle"</span><span class="p">:</span><span class="w"> </span><span class="s2">"italic"</span><span class="w">
+      </span><span class="p">}</span><span class="w">
+    </span><span class="p">}]</span><span class="w">
+  </span><span class="p">}</span><span class="w">
+</span><span class="p">}</span></code></pre></figure>
+
+<p>Listo eso es todo, ahora ya tienes una configuración adecuada para operator mono. Happy dev 👨‍💻</p>
+:ET

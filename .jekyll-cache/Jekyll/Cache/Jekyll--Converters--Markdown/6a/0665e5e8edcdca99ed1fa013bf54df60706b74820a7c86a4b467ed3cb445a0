@@ -1,0 +1,68 @@
+I"&<p>Mi estimad@ amig@ un gustazo saludarte nuevamente ¿Qué tal va este mes? Por aquí yo reportándome para traerte una <strong>aplicación para descargar música mp3</strong> o mejor aun en formato <a href="https://es.wikipedia.org/wiki/FLAC" target="_blank" rel="noopener"><strong>FLAC</strong></a> que es de mucha mejor calidad que el popular mp3.</p>
+
+<p>Si, ya se que aplicaciones para descargar música hay como para hacer fiesta sobre todo para descargar música en Android, en el mejor de los casos estas aplicaciones cuentan con una biblioteca limitada y están repletas de publicidad haciendo que la experiencia sea tosca.</p>
+
+<p>La que te voy a mostrar esta libre de publicidad y descarga pistas, álbum, playlist directamente de los servidores de unos de los servicios de música en streaming más popular.</p>
+
+<p>Aja, también se que hoy en día contamos con servicios de <strong>música en streaming</strong> como <strong>Spotify</strong> pero nunca esta demás tener nuestra colección de canciones favoritas en nuestro PC o Smartphone para esos momentos en los que vamos al gimnasio, caminar a un parque, somos el alma de las fiestas y alegramos el ambiente con nuestro potente playlist o en el peor de los casos vivimos en un país del tercer mundo como Venezuela <strong>donde 1GB de datos te cuestan más de la mitad del sueldo mínimo</strong> y disfrutar de la música en streaming gratis fuera de nuestra red wifi es imposible.</p>
+
+<p>La aplicación en cuestión es <a href="https://notabug.org/RemixDevs/DeezloaderRemix" target="_blank" rel="noopener nofollow"><strong>DeezLoader Remix</strong></a> y cuenta con apps oficiales para <strong>Windows</strong>, <strong>Linux</strong>, <strong>MacOS</strong> y una no oficial para <a href="https://gitlab.com/Nick80835/DeezLoader-Android" target="_blank" rel="noopener nofollow"><strong>Android</strong></a>.</p>
+
+<h2 id="características-de-esta-aplicación-para-descargar-música">Características de esta aplicación para descargar música.</h2>
+
+<ul>
+  <li>Descargar música en mp3 y FLAC desde los servidores de <a href="https://www.deezer.com/es/" target="_blank" rel="noopener">Deezer</a>.</li>
+  <li>Buscar y descubrir música desde la aplicación.</li>
+  <li>Descargar música directamente desde una URL.</li>
+  <li>Descargar toda la biblioteca de un artista.</li>
+  <li>Ver listas de reproducción publica de Deezer.</li>
+  <li>Vista previa de la canción.</li>
+  <li>Open Source.</li>
+</ul>
+
+<p>DeezLoader Remix obtiene los archivos de música desde los servidores de Deezer por lo que el primer paso que debes hacer es crearte una cuenta en esta plataforma.</p>
+
+<p>Para ello ve al siguiente <a href="https://www.deezer.com/es/register" target="_blank" rel="noopener"><strong>LINK</strong></a> y registrate, el proceso no tiene ninguna ciencia es igual a crearte una cuenta en cualquier otro servicio web.</p>
+
+<p>Ya que tengas tu cuenta en Deezer descarga DeezLoader Remix acorde a tu sistema operativo desde este <a href="https://notabug.org/RemixDevs/DeezloaderRemix/wiki/Downloads" target="_blank" rel="noopener nofollow"><strong>LINK</strong></a>.</p>
+
+<p><img src="/images/img-post/instalar-deezloader-remix-001.webp" alt="Aplicación para descargar música gratis" /></p>
+
+<p>La instalación de la aplicación tampoco tiene mayor misterio solo sigue el típico <strong>siguiente</strong>, <strong>siguiente</strong>… En el caso de Windows y si así lo deseas puedes descargar la versión portable que no requiere de instalación.</p>
+
+<h2 id="deezloader-remix-aplicación-para-descargar-música-gratis">DeezLoader Remix aplicación para descargar música gratis.</h2>
+
+<p><img src="/images/img-post/aplicacion-para-descagar-musica-mp3.webp" alt="Aplicación para descargar música mp3" /></p>
+
+<p>Al abrir la aplicación lo primero que debes hacer es iniciar sesión con tu cuenta de Deezer, una vez dentro nos encontramos con una bonita interfaz desde la que podremos buscar y descargar la música que queramos siempre y cuando este disponible en Deezer cuya biblioteca consta de unas 53 millones de canciones y a menos que tengas unos gustos musicales exquisitos dudo que no encuentres lo que busques.</p>
+
+<p>Como te comentaba DeezLoader Remix tiene una muy bonita y cuidada interfaz que pese a estar en ingles es fácil de intuir que hace cada cosa en ella, aun así y como eres <em>my brother</em> voy a explicártela a manera de que te hagas una idea como funcionan las seis pestañas que componen la interfaz.</p>
+
+<ul>
+  <li><strong>Search</strong>: Es la pestaña de búsqueda, se compone de una entrada para buscar y de cuatro opciones generales que te permite filtrar los resultados.
+    <ul>
+      <li>Song: Buscar por nombre de la canción.</li>
+      <li>Albun: Buscar por nombre de álbum del artista.</li>
+      <li>Artist: Buscar por nombre del artista.</li>
+      <li>Playlist: Buscar playlist de un artista.</li>
+    </ul>
+  </li>
+  <li><strong>Charts</strong>: Te muestra una lista de las 100 canciones mas populares a nivel mundial (opción por defecto), pero puedes filtrarla por país.</li>
+  <li><strong>Playlists</strong>: Aquí debería de mostrarse las lista de reproducción publicas que tengas en Spotify, esta opción requiere de pasos adicionales, para habilitar esta característica puedes seguir el siguiente <a href="https://notabug.org/RemixDevs/DeezloaderRemix/wiki/Spotify+Features" target="_blank" rel="noopener nofollow"><strong>LINK</strong></a> donde se explica paso a paso el procedimiento que debes seguir.</li>
+  <li><strong>Link Analyzer</strong>: Según las propias palabras del desarrollador de la aplicación. Puede utilizar esta sección para obtener más información sobre el enlace que está intentando descargar. Esto es útil si estás intentando descargar algunas canciones que no están disponibles en tu país y quieres saber dónde están disponibles.</li>
+  <li><strong>Download from url</strong>: Desde aquí puedes descargar pistas, albums, playlist directamente desde una url, yo los he probado con link de Deezer y Spotify y funciona como un encanto.</li>
+  <li><strong>Download</strong>: Desde este aparatado gestionaras todas las descargas que estés realizando o hayas hecho.</li>
+</ul>
+
+<p>Ya para ir finalizando hay un par de cosas que me gustaría comentarte, en la pestaña Settings están las configuraciones de la aplicación son un montón pero quizás quieras cambiar el formato de los archivos descargados de mp3 que es el que viene por defecto a FLAC este formato de audio comprime mejor el tamaño de los archivos y goza de una mejor calidad de sonido.</p>
+
+<p>Solo ten en cuenta que si eliges el formato FLAC no podrás reproducirlo en equipos que no tengan compatibilidad con dicho formato como por ejemplo algunos equipos de sonido para el hogar o automóviles, así que primero cerciórate si dichos aparatos cuentan con compatibilidad para FLAC.</p>
+
+<p>La opción para implementar las características de Spotify están al final de la configuración, y si estas en un país donde Spotify no este disponible explícitamente debes de tirar de una VPN para poder llevar acabo este paso. Te dejo el link al post <a href="/spotify-venezuela"><strong>Cómo usar Spotify en países no disponible</strong>.</a></p>
+
+<p>Esto es todo por ahora, espero disfrute de esta aplicación para descargar música. No olvides <strong>compartir este post en tus redes sociales</strong> y si te surge alguna duda tienes el apartado de comentario. Nos vemos.</p>
+
+<blockquote>
+  <p><a href="https://www.pexels.com/photo/photography-of-woman-listening-to-music-761963/" target="_blank" rel="noopener">Foto de portada por bruce mars de Pexels.</a></p>
+</blockquote>
+:ET

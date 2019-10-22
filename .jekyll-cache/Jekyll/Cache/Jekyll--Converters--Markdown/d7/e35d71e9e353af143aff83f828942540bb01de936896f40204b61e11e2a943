@@ -1,0 +1,794 @@
+I"�C<p>Si adquiriste un teléfono celular fuera de las compañías telefónicas <strong>Movistar</strong>, <strong>Digitel</strong>, <strong>Movilnet</strong> ya sea porque lo compraste desde una tienda en línea, te lo envió un familiar desde el exterior como regalo o estás de visita en el país y trajiste contigo tu <em>smartphone</em> debes configurar las <strong><em>APN</em> de Venezuela</strong> para poder disfrutar de la conexión de datos móviles que te permita acceder a internet.</p>
+
+<p>Normalmente cuando compras un teléfono inteligente dentro de la operadora móvil de tu preferencia los <em>APN</em> ya vienen configurado permitiéndote así disfrutar al instante de tu plan de datos.</p>
+
+<p>Aun así, esta guía podría serte de ayuda si eres de los que gusta experimentar en tu teléfono con sistema operativo Android. Es decir lo <strong><em>rooteas</em></strong> e instalas una <strong><em>custom rom</em></strong> la configuración de los <em>APN</em> de Movistar, Digitel, Movilnet se borrarán; por lo tanto, guarda este post en los favoritos de tu navegador. “<em>Es mejor tenerlo y no necesitarlo, que necesitarlo y no tenerlo</em>”.</p>
+
+<h2 id="qué-son-las-apn">¿Qué son las APN?</h2>
+
+<p>Según la Wikipedia: <em>APN</em> siglas de (<em>Access Point Name</em>) en inglés, que traducido al español sería <strong>Nombre del Punto de Acceso</strong> son: tu sabes <em>pim pam pum</em>, venga no te voy a aburrir con datos técnicos confusos; aunque, si lo tuyo son los datos técnicos aquí tienes el <a href="https://es.wikipedia.org/wiki/Nombre_del_punto_de_acceso"><strong>LINK</strong></a>.</p>
+
+<p>Los <em>APN</em> son unos parámetros de configuración que cada operadora establece y son necesarios para que los dispositivos puedan levantar las <strong>conexiones 3G</strong>, <strong>4G LTE</strong> para los datos móviles y <strong>MMS</strong> para los mensajes multimedia.</p>
+
+<h2 id="cómo-configuro-los-apn-en-mi-celular">¿Cómo configuro los <em>APN</em> en mi celular?</h2>
+
+<p>Esto va a variar según la marca de tu <em>smartphone</em> ya sea iPhone o Android y sus distintas versiones del sistema operativo; ya que, en algunas actualizaciones del sistema estas opciones suelen variar ligeramente. Pero por regla general deberías poder acceder a la configuración de los <em>APN</em> de la siguiente manera.</p>
+
+<h3 id="apn-android"><em>APN</em> Android.</h3>
+
+<ol>
+  <li>Ingresa a <strong>Ajustes</strong>.</li>
+  <li>Selecciona <strong>Redes móviles</strong>.</li>
+  <li>Y luego a <strong>Nombre de puntos de acceso</strong> o <strong>Apn</strong>.</li>
+</ol>
+
+<h3 id="apn-iphone"><em>APN</em> iPhone.</h3>
+
+<ol>
+  <li>Ingresa en <strong>Ajustes</strong>.</li>
+  <li>Selecciona <strong>Datos móviles</strong>.</li>
+  <li>Y luego <strong>Red de datos móviles</strong>.</li>
+</ol>
+
+<p>Una vez dentro de estos apartados debes completar la configuración con los siguientes datos.</p>
+
+<h2 id="apn-movistar-4g-lte-3g-para-android"><em>APN</em> Movistar 4G LTE, 3G para Android.</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Configuración</th>
+      <th>Valor</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Nombre:</td>
+      <td>Internet Movistar</td>
+    </tr>
+    <tr>
+      <td>APN:</td>
+      <td>internet.movistar.ve</td>
+    </tr>
+    <tr>
+      <td>Proxy:</td>
+      <td>No definido</td>
+    </tr>
+    <tr>
+      <td>Puerto:</td>
+      <td>No definido</td>
+    </tr>
+    <tr>
+      <td>Nombre de usuario:</td>
+      <td>No definido</td>
+    </tr>
+    <tr>
+      <td>Contraseña:</td>
+      <td>No definido</td>
+    </tr>
+    <tr>
+      <td>Servidor:</td>
+      <td>No definido</td>
+    </tr>
+    <tr>
+      <td>MMSC:</td>
+      <td>No definido</td>
+    </tr>
+    <tr>
+      <td>Proxy MMS:</td>
+      <td>No definido</td>
+    </tr>
+    <tr>
+      <td>Puerto de MMS:</td>
+      <td>No definido</td>
+    </tr>
+    <tr>
+      <td>MCC:</td>
+      <td>734</td>
+    </tr>
+    <tr>
+      <td>MNC:</td>
+      <td>04</td>
+    </tr>
+    <tr>
+      <td>Tipo de autenticación:</td>
+      <td>No definido</td>
+    </tr>
+    <tr>
+      <td>Tipo de APN:</td>
+      <td>default</td>
+    </tr>
+    <tr>
+      <td>Protocolo APN:</td>
+      <td>IPv4</td>
+    </tr>
+    <tr>
+      <td>Activar/desactivar:</td>
+      <td>habilitado</td>
+    </tr>
+    <tr>
+      <td>Portadora:</td>
+      <td>Sin especificar</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="apn-movistar-mms-para-android"><em>APN</em> Movistar MMS para Android.</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Configuración</th>
+      <th>Valor</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Nombre:</td>
+      <td>Internet Movistar</td>
+    </tr>
+    <tr>
+      <td>APN:</td>
+      <td>mms.movistar.ve</td>
+    </tr>
+    <tr>
+      <td>Proxy:</td>
+      <td>No definido</td>
+    </tr>
+    <tr>
+      <td>Puerto:</td>
+      <td>No definido</td>
+    </tr>
+    <tr>
+      <td>Nombre de usuario:</td>
+      <td>No definido</td>
+    </tr>
+    <tr>
+      <td>Contraseña:</td>
+      <td>No definido</td>
+    </tr>
+    <tr>
+      <td>Servidor:</td>
+      <td>No definido</td>
+    </tr>
+    <tr>
+      <td>MMSC:</td>
+      <td>http://mms.movistar.com.ve:8088/mss</td>
+    </tr>
+    <tr>
+      <td>Proxy MSS:</td>
+      <td>200.35.64.73</td>
+    </tr>
+    <tr>
+      <td>Puerto MMS:</td>
+      <td>9001</td>
+    </tr>
+    <tr>
+      <td>MCC:</td>
+      <td>734</td>
+    </tr>
+    <tr>
+      <td>MNC:</td>
+      <td>04</td>
+    </tr>
+    <tr>
+      <td>Tipo de autenticación:</td>
+      <td>No definido</td>
+    </tr>
+    <tr>
+      <td>Tipo de APN:</td>
+      <td>mms</td>
+    </tr>
+    <tr>
+      <td>Protocolo APN:</td>
+      <td>IPv4</td>
+    </tr>
+    <tr>
+      <td>Activar/desactivar:</td>
+      <td>habilitado</td>
+    </tr>
+    <tr>
+      <td>Portadora:</td>
+      <td>Sin especificar</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="apn-movistar-4g-lte-3g-para-iphone"><em>APN</em> Movistar 4G LTE, 3G para iPhone.</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Configuración</th>
+      <th>Valor</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Datos Móviles</strong></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Punto de acceso:</td>
+      <td>internet.movistar.ve</td>
+    </tr>
+    <tr>
+      <td>Nombre de usuario:</td>
+      <td>dejar en blanco</td>
+    </tr>
+    <tr>
+      <td>Contraseña:</td>
+      <td>dejar en blanco</td>
+    </tr>
+    <tr>
+      <td><strong>Configuración LTE (OPCIONAL)</strong></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Punto de acceso:</td>
+      <td>dejar en blanco</td>
+    </tr>
+    <tr>
+      <td>Nombre de usuario:</td>
+      <td>dejar en blanco</td>
+    </tr>
+    <tr>
+      <td>Contraseña:</td>
+      <td>dejar en blanco</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="apn-movistar-mms-para-iphone"><em>APN</em> Movistar MMS para iPhone.</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Configuración</th>
+      <th>Valor</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>MSS</strong></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Punto de acceso:</td>
+      <td>mms.movistar.ve</td>
+    </tr>
+    <tr>
+      <td>Nombre de usuario:</td>
+      <td>dejar en blanco</td>
+    </tr>
+    <tr>
+      <td>Contraseña:</td>
+      <td>dejar en blanco</td>
+    </tr>
+    <tr>
+      <td>MMSC:</td>
+      <td>http://mms.movistar.com.ve:8088/mms</td>
+    </tr>
+    <tr>
+      <td>Proxy MMS:</td>
+      <td>200.35.64.73:9001</td>
+    </tr>
+    <tr>
+      <td>Tamaño máximo:</td>
+      <td>1048576</td>
+    </tr>
+    <tr>
+      <td>URL de UAProf de MSS:</td>
+      <td>dejar en blanco</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="apn-digitel-4g-lte-3g-para-android"><em>APN</em> Digitel 4G LTE, 3G para Android.</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Configuración</th>
+      <th>Valor</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Nombre:</td>
+      <td>Digitel Internet</td>
+    </tr>
+    <tr>
+      <td>APN:</td>
+      <td>internet.digitel.ve</td>
+    </tr>
+    <tr>
+      <td>Proxy:</td>
+      <td>No definido</td>
+    </tr>
+    <tr>
+      <td>Puerto:</td>
+      <td>No definido</td>
+    </tr>
+    <tr>
+      <td>Nombre de usuario:</td>
+      <td>No definido</td>
+    </tr>
+    <tr>
+      <td>Contraseña:</td>
+      <td>No definido</td>
+    </tr>
+    <tr>
+      <td>Servidor:</td>
+      <td>No definido</td>
+    </tr>
+    <tr>
+      <td>MMSC:</td>
+      <td>No definido</td>
+    </tr>
+    <tr>
+      <td>Proxy MMS:</td>
+      <td>No definido</td>
+    </tr>
+    <tr>
+      <td>Puerto de MMS:</td>
+      <td>No definido</td>
+    </tr>
+    <tr>
+      <td>MCC:</td>
+      <td>734</td>
+    </tr>
+    <tr>
+      <td>MNC:</td>
+      <td>02</td>
+    </tr>
+    <tr>
+      <td>Tipo de autenticación:</td>
+      <td>No definido</td>
+    </tr>
+    <tr>
+      <td>Tipo de APN:</td>
+      <td>default</td>
+    </tr>
+    <tr>
+      <td>Protocolo APN:</td>
+      <td>IPv4</td>
+    </tr>
+    <tr>
+      <td>Activar/desactivar:</td>
+      <td>habilitado</td>
+    </tr>
+    <tr>
+      <td>Portadora:</td>
+      <td>Sin especificar</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="apn-digitel-mms-para-android"><em>APN</em> Digitel MMS para Android.</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Configuración</th>
+      <th>Valor</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Nombre:</td>
+      <td>Digitel MMS</td>
+    </tr>
+    <tr>
+      <td>APN:</td>
+      <td>expresate.digitel.ve</td>
+    </tr>
+    <tr>
+      <td>Proxy:</td>
+      <td>No definido</td>
+    </tr>
+    <tr>
+      <td>Puerto:</td>
+      <td>No definido</td>
+    </tr>
+    <tr>
+      <td>Nombre de usuario:</td>
+      <td>No definido</td>
+    </tr>
+    <tr>
+      <td>Contraseña:</td>
+      <td>No definido</td>
+    </tr>
+    <tr>
+      <td>Servidor:</td>
+      <td>No definido</td>
+    </tr>
+    <tr>
+      <td>MMSC:</td>
+      <td>http://mms.412.com.ve/servlets/mms</td>
+    </tr>
+    <tr>
+      <td>Proxy MSS:</td>
+      <td>10.99.0.10</td>
+    </tr>
+    <tr>
+      <td>Puerto MMS:</td>
+      <td>8080</td>
+    </tr>
+    <tr>
+      <td>MCC:</td>
+      <td>734</td>
+    </tr>
+    <tr>
+      <td>MNC:</td>
+      <td>02</td>
+    </tr>
+    <tr>
+      <td>Tipo de autenticación:</td>
+      <td>No definido</td>
+    </tr>
+    <tr>
+      <td>Tipo de APN:</td>
+      <td>mms</td>
+    </tr>
+    <tr>
+      <td>Protocolo APN:</td>
+      <td>IPv4</td>
+    </tr>
+    <tr>
+      <td>Activar/desactivar:</td>
+      <td>habilitado</td>
+    </tr>
+    <tr>
+      <td>Portadora:</td>
+      <td>Sin especificar</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="apn-digitel-4g-lte-3g-para-iphone"><em>APN</em> Digitel 4G LTE, 3G para iPhone.</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Configuración</th>
+      <th>Valor</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Datos Móviles</strong></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Punto de acceso:</td>
+      <td>internet.digitel.ve</td>
+    </tr>
+    <tr>
+      <td>Nombre de usuario:</td>
+      <td>dejar en blanco</td>
+    </tr>
+    <tr>
+      <td>Contraseña:</td>
+      <td>dejar en blanco</td>
+    </tr>
+    <tr>
+      <td><strong>Configuración LTE (OPCIONAL)</strong></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Punto de acceso:</td>
+      <td>dejar en blanco</td>
+    </tr>
+    <tr>
+      <td>Nombre de usuario:</td>
+      <td>dejar en blanco</td>
+    </tr>
+    <tr>
+      <td>Contraseña:</td>
+      <td>dejar en blanco</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="apn-digitel-mms-par-iphone"><em>APN</em> Digitel MMS par iPhone.</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Configuración</th>
+      <th>Valor</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>MSS</strong></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Punto de acceso:</td>
+      <td>expresate.digitel.ve</td>
+    </tr>
+    <tr>
+      <td>Nombre de usuario:</td>
+      <td>dejar en blanco</td>
+    </tr>
+    <tr>
+      <td>Contraseña:</td>
+      <td>dejar en blanco</td>
+    </tr>
+    <tr>
+      <td>MMSC:</td>
+      <td>http://mms.412.com.ve/servlets/mms</td>
+    </tr>
+    <tr>
+      <td>Proxy MMS:</td>
+      <td>10.99.0.10:8080</td>
+    </tr>
+    <tr>
+      <td>Tamaño máximo:</td>
+      <td>1048576</td>
+    </tr>
+    <tr>
+      <td>URL de UAProf de MSS:</td>
+      <td>dejar en blanco</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="apn-movilnet-4g-lte-3g-para-android"><em>APN</em> Movilnet 4G LTE, 3G para Android.</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Configuración</th>
+      <th>Valor</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Nombre:</td>
+      <td>Movilnet Internet</td>
+    </tr>
+    <tr>
+      <td>APN:</td>
+      <td>int.movilnet.com.ve</td>
+    </tr>
+    <tr>
+      <td>Proxy:</td>
+      <td>No definido</td>
+    </tr>
+    <tr>
+      <td>Puerto:</td>
+      <td>No definido</td>
+    </tr>
+    <tr>
+      <td>Nombre de usuario:</td>
+      <td>No definido</td>
+    </tr>
+    <tr>
+      <td>Contraseña:</td>
+      <td>No definido</td>
+    </tr>
+    <tr>
+      <td>Servidor:</td>
+      <td>No definido</td>
+    </tr>
+    <tr>
+      <td>MMSC:</td>
+      <td>No definido</td>
+    </tr>
+    <tr>
+      <td>Proxy MMS:</td>
+      <td>No definido</td>
+    </tr>
+    <tr>
+      <td>Puerto de MMS:</td>
+      <td>No definido</td>
+    </tr>
+    <tr>
+      <td>MCC:</td>
+      <td>734</td>
+    </tr>
+    <tr>
+      <td>MNC:</td>
+      <td>06</td>
+    </tr>
+    <tr>
+      <td>Tipo de autenticación:</td>
+      <td>No definido</td>
+    </tr>
+    <tr>
+      <td>Tipo de APN:</td>
+      <td>default</td>
+    </tr>
+    <tr>
+      <td>Protocolo APN:</td>
+      <td>IPv4</td>
+    </tr>
+    <tr>
+      <td>Activar/desactivar:</td>
+      <td>habilitado</td>
+    </tr>
+    <tr>
+      <td>Portadora:</td>
+      <td>Sin especificar</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="apn-movilnet-mms-para-android"><em>APN</em> Movilnet MMS para Android.</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Configuración</th>
+      <th>Valor</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Nombre:</td>
+      <td>Movilnet Internet</td>
+    </tr>
+    <tr>
+      <td>APN:</td>
+      <td>mm.movilnet.com.ve</td>
+    </tr>
+    <tr>
+      <td>Proxy:</td>
+      <td>No definido</td>
+    </tr>
+    <tr>
+      <td>Puerto:</td>
+      <td>No definido</td>
+    </tr>
+    <tr>
+      <td>Nombre de usuario:</td>
+      <td>No definido</td>
+    </tr>
+    <tr>
+      <td>Contraseña:</td>
+      <td>No definido</td>
+    </tr>
+    <tr>
+      <td>Servidor:</td>
+      <td>No definido</td>
+    </tr>
+    <tr>
+      <td>MMSC:</td>
+      <td>http://mms2.movilnet.com.ve/servlets/mms</td>
+    </tr>
+    <tr>
+      <td>Proxy MSS:</td>
+      <td>192.168.16.12</td>
+    </tr>
+    <tr>
+      <td>Puerto MMS:</td>
+      <td>8080</td>
+    </tr>
+    <tr>
+      <td>MCC:</td>
+      <td>734</td>
+    </tr>
+    <tr>
+      <td>MNC:</td>
+      <td>06</td>
+    </tr>
+    <tr>
+      <td>Tipo de autenticación:</td>
+      <td>No definido</td>
+    </tr>
+    <tr>
+      <td>Tipo de APN:</td>
+      <td>mms</td>
+    </tr>
+    <tr>
+      <td>Protocolo APN:</td>
+      <td>IPv4</td>
+    </tr>
+    <tr>
+      <td>Activar/desactivar:</td>
+      <td>habilitado</td>
+    </tr>
+    <tr>
+      <td>Portadora:</td>
+      <td>Sin especificar</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="apn-movilnet-4g-lte-3g-para-iphone"><em>APN</em> Movilnet 4G LTE, 3G para iPhone.</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Configuración</th>
+      <th>Valor</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Datos Móviles</strong></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Punto de acceso:</td>
+      <td>int.movilnet.com.ve</td>
+    </tr>
+    <tr>
+      <td>Nombre de usuario:</td>
+      <td>dejar en blanco</td>
+    </tr>
+    <tr>
+      <td>Contraseña:</td>
+      <td>dejar en blanco</td>
+    </tr>
+    <tr>
+      <td><strong>Configuración LTE (OPCIONAL)</strong></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Punto de acceso:</td>
+      <td>dejar en blanco</td>
+    </tr>
+    <tr>
+      <td>Nombre de usuario:</td>
+      <td>dejar en blanco</td>
+    </tr>
+    <tr>
+      <td>Contraseña:</td>
+      <td>dejar en blanco</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="apn-movilnet-mms-para-iphone"><em>APN</em> Movilnet MMS para iPhone.</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Configuración</th>
+      <th>Valor</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>MSS</strong></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Punto de acceso:</td>
+      <td>mm.movilnet.com.ve</td>
+    </tr>
+    <tr>
+      <td>Nombre de usuario:</td>
+      <td>dejar en blanco</td>
+    </tr>
+    <tr>
+      <td>Contraseña:</td>
+      <td>dejar en blanco</td>
+    </tr>
+    <tr>
+      <td>MMSC:</td>
+      <td>http://mms2.movilnet.com.ve/servlets/mms</td>
+    </tr>
+    <tr>
+      <td>Proxy MMS:</td>
+      <td>192.168.16.12:8080</td>
+    </tr>
+    <tr>
+      <td>Tamaño máximo:</td>
+      <td>1048576</td>
+    </tr>
+    <tr>
+      <td>URL de UAProf de MSS:</td>
+      <td>dejar en blanco</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Luego que hayas añadido los parámetros adecuados para tu Android o iPhone solo debes activar los datos móviles y acceder a internet para comprobar que la configuración de los APN a sido correcta.</p>
+
+<p>¿<strong>Tienes alguna duda</strong>? házmelo saber en el <strong>apartado de los comentarios</strong> para ayudarte a despejarla y si te ha sido útil este post <strong>compártelo en tus redes sociales</strong>.</p>
+:ET

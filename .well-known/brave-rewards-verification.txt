@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: leninalbertop.com.ve
+Token: 3b71f8ad216975d22aa71439de9b98d743f841a44b20d306a9bb480ea0e28983

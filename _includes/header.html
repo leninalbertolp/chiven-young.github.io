@@ -1,19 +1,46 @@
-<header id="index-header">
-  <div class="top-center">
-      <div class="logo">
-          <a href="{{ "/" | relative_url }}" title="Bridge">{{ site.webtitle }}</a>
-      </div>
-      <nav class="top-nav">
-          <ul>
-              {% for i in site.nav %}
-                <li><a href="{{ i[1] }}">{{ i[0] }}</a></li>
-              {% endfor %}
-          </ul>
-      </nav>
-      <div id="top-boot">
-        <a href="javascript:;" id="boot1" style="display:block;" onclick="document.getElementById('boot-area').style.display='block';document.getElementById('boot1').style.display='none';document.getElementById('boot2').style.display='block';"><img src="/assets/boot.png" alt=""></a>
-        <a href="javascript:;" id="boot2" style="display: none;" onclick="document.getElementById('boot-area').style.display='none';document.getElementById('boot1').style.display='block';document.getElementById('boot2').style.display='none';"><img src="/assets/boot.png" alt=""></a>
-      </div>
-  </div>
+<header class='c-header'>
+  <div class='o-grid'>
 
+    <div class='o-grid__col o-grid__col--3-4-s o-grid__col--4-4-m'>
+      <div class='c-logo'>
+        {% if site.logo %}
+          <a href='{{ site.baseurl }}/'>
+            <img class='c-logo__img' src='{{ site.logo }}' alt='{{ site.title_home }}'>
+          </a>
+        {% else %}
+          <a class='c-logo__link' href='{{ site.baseurl }}/'>{{ site.title_home }}</a>
+        {% endif %}
+      </div>
+    </div>
+
+    <div class='o-grid__col o-grid__col--1-4-s o-grid__col--3-4-l o-grid__col--full'>
+      <div class='c-off-canvas-content js-off-canvas-content'>
+        <label class='js-off-canvas-toggle c-off-canvas-toggle c-off-canvas-toggle--close'>
+          <span class='c-off-canvas-toggle__icon'></span>
+        </label>
+
+        <div class='o-grid'>
+          <div class='o-grid__col o-grid__col--4-4-s o-grid__col--3-4-l o-grid__col--full'>
+            <nav class='c-nav-wrap'>
+              <ul class='c-nav o-plain-list'>
+                {% include navigation.html %}
+                <li class='c-nav__item'>
+                  <a class='toggle-search-button js-search-toggle' href='#' aria-label='Search'>
+                    <span class='c-nav__icon' data-icon='ei-search' data-size='s'></span>
+                  </a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+
+      <label class='js-off-canvas-toggle c-off-canvas-toggle' aria-label='Toggle navigation'>
+        <span class='c-off-canvas-toggle__icon'></span>
+      </label>
+    </div>
+
+  </div>
 </header>
+
+{% include search-form.html %}
