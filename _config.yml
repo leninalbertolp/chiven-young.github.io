@@ -9,8 +9,8 @@ theme_version: 1.0.4
 
 # Site settings
 lang: es_ES
-title: Lenin Peña - Blogger Tecnológico
-name: Lenin Peña
+title: Bridge
+name: Chiven Young
 title_home: Lenin Peña
 logo: # Logo image URL
 description: Blogger Tecnológico y Diseñador Web, escribo artículos sobre Internet, Aplicaciones, Diseño y Desarrollo Web, trucos y tips sobre Tecnologías
@@ -86,7 +86,7 @@ defaults:
 # Authors
 authors:
   leninalbertop:
-    name: Lenin Peña
+    name: Chiven Young
     bio: Blogger Tecnológico y Diseñador Web, me apasiona las tecnologías en general, amante del Open Source.
     gravatar: /images/template/leninalbertop-avatar-autor.webp  #https://s.gravatar.com/avatar/f83141edd9e6339e678648596a403fd5?s=150
     picture: /images/template/leninalbertop-avatar-autor.webp
