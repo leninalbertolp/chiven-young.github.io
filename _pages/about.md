@@ -1,102 +1,17 @@
 ---
 layout: page
 title: Sobre mí
-serp_title: Lenin Peña Blogger tecnológico y diseñador web
+serp_title: Chive Young
 description: Conoce un poco más de mi, mis intereses y pasiones, estudios y trabajos.
 image: '/images/pages/sobre-mi.webp'
 ---
 
-Mi nombre es **Lenin Alberto Peña**, nací en la ciudad de Caracas en el año de 1980. Soy hijo único y papá de dos hermosos hij@s. Me apasionan las tecnologías en especial las tecnologías web.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ut gravida diam, id pretium felis. Maecenas tincidunt erat nec mi vehicula, quis luctus turpis aliquam. Quisque vel turpis nibh. Nam lobortis felis eu porttitor molestie. Nulla facilisi. Ut consectetur ex at diam tempor, in rutrum velit malesuada. Suspendisse potenti. In commodo felis ipsum, nec aliquam leo consectetur a. Praesent nunc leo, congue in placerat vitae, ultricies in eros. Sed eget arcu iaculis, fringilla felis at, iaculis nunc. Integer consequat nunc ligula.
 
-Soy una "persona normal" sin un talento especial pero apasionadamente curioso, que le encanta pasar tiempo de calidad con mi madre e hijos, oír música (de todo tipo menos bachata, vallenato ni reggaetón), estar gran parte de mi día enfrente del pc aplicando "más práctica y menos teoría", retroalimentándome del ensayo y el error, buscando y creando proyectos personales que me llene como ser humano y aporten valor a la sociedad.
+Vestibulum ullamcorper molestie purus, ut scelerisque dui bibendum sed. Pellentesque in condimentum mauris. Suspendisse a sem auctor, dictum libero non, semper metus. Aliquam suscipit erat in odio ornare, mattis ullamcorper magna aliquet. Nullam commodo eros ac pretium ultricies. Curabitur ultrices varius malesuada. Mauris elementum metus eget nibh venenatis, blandit hendrerit est ultrices. Nullam id luctus nisl.
 
-## Mis pasos por las tecnologías.
+Mauris molestie ipsum in nisi maximus, et faucibus metus sagittis. Aenean faucibus eget ipsum ut interdum. Mauris fermentum orci et leo tincidunt fermentum. Morbi faucibus pellentesque faucibus. Nam imperdiet felis quis tristique ultricies. Ut aliquam risus risus, id vehicula turpis convallis sed. Fusce interdum libero non mauris euismod tempor. Suspendisse imperdiet ex et libero ultricies, ut sollicitudin quam mollis. Duis congue dolor aliquet leo convallis, a aliquet nulla ornare.
 
-Me gusta escribir sobre tecnología y las cosas que voy aprendiendo las voy plasmando aquí en este blog, de manera que otros también puedan acceder a esta información.
+Curabitur tellus metus, finibus at orci a, accumsan cursus erat. Donec in efficitur tellus. Cras ligula orci, feugiat id est eu, pellentesque tristique eros. Integer sit amet neque lacinia, cursus dui eget, porta enim. Etiam id feugiat erat, mollis posuere mauris. Sed nec lectus neque. Maecenas euismod justo nec leo aliquet tempus. Fusce mi leo, posuere tempor metus et, suscipit egestas tellus. Vestibulum sit amet malesuada leo, eget scelerisque urna. Cras tincidunt nibh sit amet nibh aliquet sollicitudin. Suspendisse pharetra tempor convallis. Aliquam sed libero justo. Maecenas vel lobortis nisl. Quisque tristique metus id tellus efficitur scelerisque. Integer ut neque non orci luctus posuere.
 
-Incursione en el mundo de los blog en el 2010 junto a otra de mis pasiones el diseño web, en este camino he aprendido a trabajar con tecnologías HTML, CSS y Javascript, plataformas de bloggin como Wordpress, Jekyll, Blogspot y todo lo subyacente que esto conlleva SEO, Marketing Digital, Estructura de Contenido, Analítica Web, Redes Sociales etc...
-
-Otra de las cosas que me apasionan del mundo de las tecnologías son los proyectos Open Source, es impresionante como un cumulo de personas esparcidas por todo el mundo pueden crear Software de calidad y compartirlo en la mayoría de los casos de forma gratuita.
-
-En base a la filosofía del Open Source colaboro en dos proyectos que suelo utilizar mucho.
-
-El primero es [**Web maker app**]({{site.baseurl}}webmaker-editor-codigo){: target="_blank" rel="noopener noreferrer"} esta es una aplicación web muy similar a Codepen pero más privada, en este proyecto me dedico a reportar bugs y actualizar algunas librerías.
-
-![Webmakerapp]({{site.baseurl}}/images/template/webmaker.webp){: width="840"}
-
-El segundo proyecto es [**Bitwarden**](https://bitwarden.com/){: target="_blank" rel="noopener noreferrer"}, esta es una aplicación de administración de contraseña en la que colaboro con la traducción al español.
-
-También tengo un proyecto open source, es una extensión para el editor de código Visual Studio Code. [**Materialize Snippets**](https://marketplace.visualstudio.com/items?itemName=leninp.materialize-snippets){: target="_blank" rel="noopener noreferrer"} esta extensión es un conjunto de boilerplate o snippets del framework [**Materialize**](https://materializecss.com/){: target="_blank" rel="noopener noreferrer"}.
-
-## Formación.
-
-Soy bachiller en ciencia con más 12 años de formación autodidacta en áreas tecnológicas en diferentes plataformas de educación online.
-
-<div class="responsive-table">
-  <table>
-    <thead>
-      <tr>
-        <th scope="col">Curso</th>
-        <th scope="col">Instituto</th>
-        <th scope="col">Certificado</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>Introducción al desarrollo web (1ra parte)</td>
-        <td>Google</td>
-        <td><a href="https://res.cloudinary.com/leninalbertop/image/upload/v1534163889/pdf/desarrollo-web-google-activate-1-2.pdf" role="button" target="_blank" rel="noopener noreferrer">Ver certificado</a></td>
-      </tr>
-      <tr>
-        <td>Introducción al desarrollo web (2da parte)</td>
-        <td>Google</td>
-        <td><a href="https://res.cloudinary.com/leninalbertop/image/upload/v1534163889/pdf/desarrollo-web-google-activate-2-2.pdf" role="button" target="_blank" rel="noopener noreferrer">Ver certificado</a></td>
-      </tr>
-      <tr>
-        <td>Diseño Web con HTML5 + CSS (2ª Edición)</td>
-        <td>Miríadax - Telefónica</td>
-        <td><a href="https://res.cloudinary.com/leninalbertop/image/upload/v1534164330/pdf/web_con_html5_css_2da_edicion_Miriadax.pdf" role="button" target="_blank" rel="noopener noreferrer">Ver certificado</a></td>
-      </tr>
-      <tr>
-        <td>Aprendiendo a programar</td>
-        <td>Microsoft Virtual Academy</td>
-        <td><a href="https://res.cloudinary.com/leninalbertop/image/upload/v1534164682/pdf/aprendiendo-a-programar-mva.pdf" role="button" target="_blank" rel="noopener noreferrer">Ver certificado</a></td>
-      </tr>
-      <tr>
-        <td>Programar Aplicaciones Universales de Windows</td>
-        <td>Microsoft Virtual Academy</td>
-        <td><a href="https://res.cloudinary.com/leninalbertop/image/upload/v1534164840/pdf/programar-apps-universales-windows-mva.pdf" role="button" target="_blank" rel="noopener noreferrer">Ver certificado</a></td>
-      </tr>
-      <tr>
-        <td>Desarrolla Aplicaciones con Visual Studio y ProjectSiena</td>
-        <td>Microsoft Virtual Academy</td>
-        <td><a href="https://res.cloudinary.com/leninalbertop/image/upload/v1534164944/pdf/programar-apps-vs-ps-mva.pdf" role="button" target="_blank" rel="noopener noreferrer">Ver certificado</a></td>
-      </tr>
-      <tr>
-        <td>Soporte Técnico</td>
-        <td>Microsoft Virtual Academy</td>
-        <td><a href="https://res.cloudinary.com/leninalbertop/image/upload/v1534164984/pdf/soporte-tecnico-mva.pdf" role="button" target="_blank" rel="noopener noreferrer">Ver certificado</a></td>
-      </tr>
-      <tr>
-        <td>Efectivos Sitios Web de Negocios</td>
-        <td>HP LIFE</td>
-        <td><a href="https://res.cloudinary.com/leninalbertop/image/upload/v1534165418/pdf/efectivos-sitios-web-de-negocios-hp.pdf" role="button" target="_blank" rel="noopener noreferrer">Ver certificado</a></td>
-      </tr>
-      <tr>
-        <td>Marketing de medios sociales</td>
-        <td>HP LIFE</td>
-        <td><a href="https://res.cloudinary.com/leninalbertop/image/upload/v1534165416/pdf/marketing-de-medios-sociales-hp.pdf" role="button" target="_blank" rel="noopener noreferrer">Ver certificado</a></td>
-      </tr>
-      <tr>
-        <td>Asistente web</td>
-        <td>Fundación Carlos Slim</td>
-        <td><a href="https://res.cloudinary.com/leninalbertop/image/upload/v1534165581/pdf/asistente-web.pdf" role="button" target="_blank" rel="noopener noreferrer">Ver certificado</a></td>
-      </tr>
-      <tr>
-        <td>The Hour For Code</td>
-        <td>code.org</td>
-        <td><a href="https://res.cloudinary.com/leninalbertop/image/upload/v1534165627/pdf/the-hour-for-code-code.org.jpg" role="button" target="_blank" rel="noopener noreferrer">Ver certificado</a></td>
-      </tr>
-    </tbody>
-  </table>
-</div>
+Etiam at pellentesque elit. Morbi vel sapien ligula. Fusce hendrerit sem magna, nec vulputate eros pulvinar ac. Suspendisse sapien ex, volutpat ac scelerisque vel, molestie a dolor. Etiam fermentum magna ut porttitor semper. In lacinia, est ac iaculis porttitor, justo leo ullamcorper mi, sit amet consequat est mi et odio. Proin eu dignissim justo, volutpat tempor orci.
