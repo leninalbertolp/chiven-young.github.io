@@ -13,14 +13,14 @@ title: Bridge
 name: Chiven Young
 title_home: Chiven Young
 logo: # Logo image URL
-description: Blogger Tecnológico y Diseñador Web, escribo artículos sobre Internet, Aplicaciones, Diseño y Desarrollo Web, trucos y tips sobre Tecnologías
+description: Escriba una descripción
 baseurl: '' # The subpath of your site, e.g. /blog
-url: 'https://www.leninalbertop.com.ve' # The base hostname & protocol for your site
+url: 'https://chiven-young.github.io/' # The base hostname & protocol for your site
 
 # twitter:
-  username: leninalbertop
+  username: hiven-young
 
-# facebook: leninblogger
+# facebook: hiven-young
 
 instagram: bridgegrowing
 
@@ -69,7 +69,7 @@ feed:
 
 # Jekyll seo tag config
 facebook:
-  app_id: 411587729616994
+  app_id: add your app id
 
 # Tags
 tag_page_dir: tag
@@ -87,11 +87,11 @@ defaults:
 authors:
   leninalbertop:
     name: Chiven Young
-    bio: Blogger Tecnológico y Diseñador Web, me apasiona las tecnologías en general, amante del Open Source.
-    gravatar: /images/template/leninalbertop-avatar-autor.webp  #https://s.gravatar.com/avatar/f83141edd9e6339e678648596a403fd5?s=150
-    picture: /images/template/leninalbertop-avatar-autor.webp
+    bio: Escriba una descripción.
+    gravatar: https://randomuser.me/api/portraits/men/93.jpg
+    picture: https://randomuser.me/api/portraits/men/93.jpg
     email: chiven@yeah.net
-    # facebook: leninblogger
+    # facebook: chiven-young
     github: chiven-young
-    # twitter: leninalbertop
-    # pinterest: leninalbertop
+    # twitter: chiven-young
+    # pinterest: chiven-young
