@@ -2,10 +2,10 @@
 layout: page
 title: Políticas de privacidad
 serp_title: Políticas de privacidad
-description: El titular Lenin Peña te informa sobre su Política de Privacidad respecto del tratamiento y protección de los datos de carácter personal de los usuarios y clientes que puedan ser recabados por el uso del sitio web
+description: El titular tu nombre te informa sobre su Política de Privacidad respecto del tratamiento y protección de los datos de carácter personal de los usuarios y clientes que puedan ser recabados por el uso del sitio web
 image: '/images/pages/politica-privacidad.webp'
 ---
-El titular **Lenin Peña** te informa sobre su Política de Privacidad respecto del tratamiento y protección de los datos de carácter personal de los usuarios y clientes que puedan ser recabados por la navegación o contratación de servicios a través del sitio Web https://www.leninalbertop.com.ve.
+El titular **Tu nombre** te informa sobre su Política de Privacidad respecto del tratamiento y protección de los datos de carácter personal de los usuarios y clientes que puedan ser recabados por la navegación o contratación de servicios a través del sitio Web tu web.
 
 En este sentido, el Titular garantiza el cumplimiento de la normativa vigente en materia de protección de datos personales, reflejada en la Ley Orgánica 3/2018, de 5 de diciembre, de Protección de Datos Personales y de Garantía de Derechos Digitales (LOPD GDD). Cumple también con el Reglamento (UE) 2016/679 del Parlamento Europeo y del Consejo de 27 de abril de 2016 relativo a la protección de las personas físicas (RGPD).
 
@@ -13,11 +13,11 @@ El uso del sitio Web implica la aceptación de esta Política de Privacidad así
 
 ### Identidad del responsable
 
-- Titular: Lenin Peña
-- Cedula de identidad: 15040770
-- Domicilio: calle 18 los Otomacos, Charallave, Venezuela
-- Correo electrónico: leninalbertolp@gmail.com
-- Sitio Web: https://www.leninalbertop.com.ve
+- Titular: tu nombre
+- Cedula de identidad: tu DNI
+- Domicilio: tu dirección
+- Correo electrónico: tu correo
+- Sitio Web: tu web
 
 ### Principios aplicados en el tratamiento de datos
 
@@ -32,7 +32,7 @@ En el tratamiento de tus datos personales, el Titular aplicará los siguientes p
 
 ### Obtención de datos personales
 
-Para navegar por https://www.leninalbertop.com.ve no es necesario que facilites ningún dato personal. Los casos en los que sí proporcionas tus datos personales son los siguientes:
+Para navegar por tu web no es necesario que facilites ningún dato personal. Los casos en los que sí proporcionas tus datos personales son los siguientes:
 
 - Al contactar a través de los formularios de contacto o enviar un correo electrónico.
 - Al realizar un comentario en un artículo o página.
@@ -50,13 +50,13 @@ El Titular te informa que sobre tus datos personales tienes derecho a:
 
 El ejercicio de estos derechos es personal y por tanto debe ser ejercido directamente por el interesado, solicitándolo directamente al Titular, lo que significa que cualquier cliente, suscriptor o colaborador que haya facilitado sus datos en algún momento puede dirigirse al Titular y pedir información sobre los datos que tiene almacenados y cómo los ha obtenido, solicitar la rectificación de los mismos, solicitar la portabilidad de sus datos personales, oponerse al tratamiento, limitar su uso o solicitar la cancelación de esos datos en los ficheros del Titular.
 
-Para ejercitar tus derechos de acceso, rectificación, cancelación, portabilidad y oposición tienes que enviar un correo electrónico a leninalbertolp@gmail.com junto con la prueba válida en derecho como una fotocopia del D.N.I. o equivalente.
+Para ejercitar tus derechos de acceso, rectificación, cancelación, portabilidad y oposición tienes que enviar un correo electrónico a tu email junto con la prueba válida en derecho como una fotocopia del D.N.I. o equivalente.
 
 Tienes derecho a la tutela judicial efectiva y a presentar una reclamación ante la autoridad de control, en este caso, la Agencia de Protección de Datos correspondiente, si consideras que el tratamiento de datos personales que te conciernen infringe el Reglamento.
 
 ### Finalidad del tratamiento de datos personales
 
-Cuando te conectas al sitio Web para mandar un correo al Titular, te suscribes a su boletín o realizas una contratación, estás facilitando información de carácter personal de la que el responsable es el Titular. Esta información puede incluir datos de carácter personal como pueden ser tu dirección IP, nombre y apellidos, dirección física, dirección de correo electrónico, número de teléfono, y otra información. Al facilitar esta información, das tu consentimiento para que tu información sea recopilada, utilizada, gestionada y almacenada por https://www.leninalbertop.com.ve , sólo como se describe en el Aviso Legal y en la presente Política de Privacidad.
+Cuando te conectas al sitio Web para mandar un correo al Titular, te suscribes a su boletín o realizas una contratación, estás facilitando información de carácter personal de la que el responsable es el Titular. Esta información puede incluir datos de carácter personal como pueden ser tu dirección IP, nombre y apellidos, dirección física, dirección de correo electrónico, número de teléfono, y otra información. Al facilitar esta información, das tu consentimiento para que tu información sea recopilada, utilizada, gestionada y almacenada por tu web , sólo como se describe en el Aviso Legal y en la presente Política de Privacidad.
 
 Los datos personales y la finalidad del tratamiento por parte del Titular es diferente según el sistema de captura de información:
 
@@ -90,7 +90,7 @@ Para proteger tus datos personales, el Titular toma todas las precauciones razon
 
 El sitio Web está alojado en Github. La seguridad de tus datos está garantizada, ya que toman todas las medidas de seguridad necesarias para ello. Puedes consultar su política de privacidad para tener más información.
 
-El sitio https://www.leninalbertop.com.ve esta creado bajo el generador de páginas estáticas Jekyll, por lo que este sitio no crea ni mantiene base de datos en ningún servidor propio o de terceros con información personal de ninguna índole.
+El sitio tu web esta creado bajo el generador de páginas estáticas Jekyll, por lo que este sitio no crea ni mantiene base de datos en ningún servidor propio o de terceros con información personal de ninguna índole.
 
 Los datos personales recogidos en este sitio se hace mediante servicios de terceros como **Mailchimp** para el envió de campañas de Email y **Disqus** para el sistema de comentarios.
 
@@ -137,7 +137,7 @@ También puedes ver una lista de los tipos de cookies que utiliza Google y sus c
 
 ### Navegación Web
 
-Al navegar por https://www.leninalbertop.com.ve se pueden recoger datos no identificativos, que pueden incluir, la dirección IP, geolocalización, un registro de cómo se utilizan los servicios y sitios, hábitos de navegación y otros datos que no pueden ser utilizados para identificarte.
+Al navegar por tu web se pueden recoger datos no identificativos, que pueden incluir, la dirección IP, geolocalización, un registro de cómo se utilizan los servicios y sitios, hábitos de navegación y otros datos que no pueden ser utilizados para identificarte.
 
 El sitio Web utiliza los siguientes servicios de análisis de terceros:
 
@@ -158,7 +158,7 @@ Como Usuario del sitio Web declaras haber sido informado de las condiciones sobr
 
 ### Revocabilidad
 
-Para ejercitar tus derechos de acceso, rectificación, cancelación, portabilidad y oposición tienes que enviar un correo electrónico a leninalbertolp@gmail.com junto con la prueba válida en derecho como una fotocopia del D.N.I. o equivalente.
+Para ejercitar tus derechos de acceso, rectificación, cancelación, portabilidad y oposición tienes que enviar un correo electrónico a tu email junto con la prueba válida en derecho como una fotocopia del D.N.I. o equivalente.
 
 El ejercicio de tus derechos no incluye ningún dato que el Titular esté obligado a conservar con fines administrativos, legales o de seguridad.
 
